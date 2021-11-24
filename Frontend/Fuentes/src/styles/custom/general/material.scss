@@ -1,0 +1,27 @@
+.menu-language {
+  border-radius: $brd-radius-2 !important;
+  max-width: 144px !important;
+  min-width: 100px !important;
+
+  .menu-icons {
+    width: 96px;
+
+    .icons {
+      float: right;
+    }
+  }
+}
+
+.menu-theme {
+  border-radius: $brd-radius-2 !important;
+  max-width: 188px !important;
+  min-width: 100px !important;
+
+  .menu-icons {
+    width: 138px;
+
+    .icons {
+      float: right;
+    }
+  }
+}

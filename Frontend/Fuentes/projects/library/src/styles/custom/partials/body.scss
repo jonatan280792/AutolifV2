@@ -1,0 +1,19 @@
+.mat-sidenav-container {
+  min-height: 93.9vh;
+}
+
+.mat-drawer-content.mat-sidenav-content {
+  /// min-height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  min-height: 92vh;
+  // @include media('tablet') {
+  //   min-height: 0;
+  // }
+}
+
+a {
+  text-decoration: none;
+}

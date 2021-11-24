@@ -1,0 +1,94 @@
+<section class="login-section">
+  <div class="display-login">
+    <article>
+      <div class="section-formulary">
+        <div class="align-img">
+          <img src="assets/img/logo.png" class="img-logo" alt="">
+        </div>
+        <div class="title-login">
+          <h1>Bienvenido</h1>
+        </div>
+        <form [formGroup]="formLogin" (ngSubmit)="doLogin(formLogin.value)">
+          <div class="form-login">
+            <div class="user-field">
+              <label class="label-detail">Usuario</label>
+              <mat-form-field class="input-form" [floatLabel]="'never'">
+                <input
+                  matInput
+                  required
+                  placeholder="Ingrese su usuario"
+                  class="custom-input"
+                  name="user"
+                  formControlName="user"/>
+                <mat-error class="mat-error">Campo requerido</mat-error>
+              </mat-form-field> 
+            </div>
+            <div class="user-field">
+              <label class="label-detail">Contraseña</label>
+              <mat-form-field class="input-form" [floatLabel]="'never'">
+                <input
+                  matInput
+                  required
+                  placeholder="Ingrese su contraseña"
+                  class="custom-input"
+                  name="password"
+                  type="password"
+                  formControlName="password"/>
+                <mat-error class="mat-error">Campo requerido</mat-error>
+              </mat-form-field> 
+            </div>
+            <div class="errorLogin" *ngIf="errorLogin">
+              <p>Datos incorrectos</p>
+            </div>
+            <div class="form-submit">
+              <div class="section-button">
+                <button mat-raised-button color="primary" type="submit">Ingresar</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </article>
+    <article>
+      <div class="image-banner">
+        <img src="assets/img/banner.jpg" class="img-fluid height" alt="">
+      </div>
+    </article>
+  </div>
+ 
+</section>
+<!-- 
+<table><tbody>
+  <tr style="background-color: red">
+      <td>Donna</td>
+      <td>2016-10-01</td>
+      <td></td>
+  </tr>
+  <tr style="background-color: red">
+      <td>Nansen</td>
+      <td>2016-11-05</td>
+      <td>2016-11-14</td>
+  </tr>
+  <tr style="background-color: red">
+      <td>Peppe</td>
+      <td>2016-11-05</td>
+      <td>2016-11-14</td>
+  </tr>
+  <tr>
+      <td>J'Sira</td>
+      <td>2012-02-28</td>
+      <td>2012-03-14</td>
+  </tr>
+  <tr>
+      <td>Billie</td>
+      <td>2015-08-14</td>
+      <td>2015-10-09</td>
+  </tr>
+  <tr>
+      <td>Peyton</td>
+      <td>2015-08-14</td>
+      <td>2015-10-09</td>
+  </tr>
+</tbody></table>
+
+<button (click)="procesar()">dssdsa</button> -->

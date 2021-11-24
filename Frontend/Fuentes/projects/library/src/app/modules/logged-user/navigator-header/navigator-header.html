@@ -1,0 +1,36 @@
+<section class="navigator-header">
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" (click)="sidenav.toggle();" aria-label="Example icon-button with menu icon">
+      <mat-icon svgIcon="menu"></mat-icon>
+    </button>
+    <span>{{ 'homeToolbar' | translate }}</span>
+    <span class="order-items"></span>
+    <button mat-icon-button class="example-icon favorite-icon" title="Cambiar tema" [matMenuTriggerFor]="menuTheme" aria-label="Example icon-button with heart icon">
+      <!-- <mat-icon>format_color_fill</mat-icon> -->
+      <mat-icon svgIcon="palette"></mat-icon>
+    </button>
+    <mat-menu #menuTheme="matMenu" class="menu-theme">
+      <mat-radio-group (change)="changeTheme($event.value)"
+        [(ngModel)]="theme">
+        <mat-radio-button style="width: 100%; padding-left: 10px;" *ngFor="let theme of themeList" value="{{ theme.businessCode }}">
+          <div class="menu-icons">{{ theme.description | translate }}<mat-icon class="icons" svgIcon="{{theme.icon}}"></mat-icon></div>
+        </mat-radio-button>
+      </mat-radio-group>
+    </mat-menu>
+    <button mat-icon-button title="Cambiar idioma" [matMenuTriggerFor]="menuLanguage">
+      <mat-icon svgIcon="languages"></mat-icon>
+    </button>
+    <button mat-icon-button title="Salir" (click)="logout('/login')">
+      <mat-icon svgIcon="logout"></mat-icon>
+    </button>
+    <mat-menu #menuLanguage="matMenu" class="menu-language">
+      <mat-radio-group (change)="useLanguage($event.value)"
+        [(ngModel)]="language">
+        <mat-radio-button style="width: 100%; padding-left: 10px;" *ngFor="let item of languages" value="{{item.value}}">
+          <div class="menu-icons">{{item.description}} <mat-icon class="icons" svgIcon="{{item.icon}}"></mat-icon></div>
+        </mat-radio-button>
+      </mat-radio-group>
+    </mat-menu>
+  </mat-toolbar>
+</section>
+ 

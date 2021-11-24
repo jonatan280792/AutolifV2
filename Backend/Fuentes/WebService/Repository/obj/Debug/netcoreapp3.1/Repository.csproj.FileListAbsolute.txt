@@ -1,0 +1,56 @@
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Security.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Security.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Security.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Security.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.AssemblyReference.cache
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.pdb

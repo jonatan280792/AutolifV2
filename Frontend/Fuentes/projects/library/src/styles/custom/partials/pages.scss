@@ -1,0 +1,83 @@
+.actions-section-buttons {
+  text-align: center;
+
+  .section-btns {
+    margin: 0 6px;
+  }
+}
+
+
+.icon-pincipal {
+  padding-right: 24px;
+  height: 70px;
+  width: 70px;
+}
+
+.icon-actions {
+  cursor: pointer;
+  margin: 0 24px;
+  height: 50px;
+  width: 50px;
+}
+
+.body-table {
+  padding-top: 12px;
+
+  .table {
+    // @include font-style('$proxima-nova', 28px);
+    text-align: center;
+    width: 100%;
+
+    .detail-row {
+      height: 0;
+    }
+
+    tr.element-row:not(.expanded-row):hover {
+      background: whitesmoke;
+    }
+    
+    tr.element-row:not(.expanded-row):active {
+      background: #efefef;
+    }
+
+    .element-row td {
+      border-bottom-width: 0;
+    }
+
+    .element-actions {
+      text-align: center;
+    }
+
+    .icons-table {
+      margin: 0 8px;
+
+    }
+
+    .element-detail {
+      overflow: hidden;
+      display: flex;
+    }
+
+    .example-element-diagram {
+      min-width: 80px;
+      border: 2px solid black;
+      padding: 8px;
+      font-weight: lighter;
+      margin: 8px 0;
+      height: 104px;
+    }
+    
+    .example-element-description {
+      padding: 16px;
+    }
+    
+    .example-element-description-attribution {
+      opacity: 0.5;
+    }
+  }
+
+  .table-empty {
+    padding: 6px;
+    text-align: center;
+  }
+}

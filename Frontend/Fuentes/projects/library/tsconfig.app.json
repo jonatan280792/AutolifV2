@@ -1,0 +1,39 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+      "outDir": "../../out-tsc/app",
+      "types": [],
+      "paths": {
+        "@app/*": ["./src/app/*"],
+        "@environments/*": ["./src/environments/*"],
+        "@common/*": ["./src/app/common/*"],
+        "@config/*": ["./src/app/config/*"],
+        "@guards/*": ["./src/app/guards/*"],
+        "@interceptors/*": ["./src/app/interceptors/*"],
+        "@pipes/*": ["./src/app/pipes/*"],
+        "@services/*": ["./src/app/services/*"],
+        "@utils/*": ["./src/app/utils/*"],
+        "@validators/*": ["./src/app/validators/*"],
+        "@certificates/valores/*": [
+          "./projects/library/src/app/modules/certificates/*"
+        ],
+        "@common/library/*": ["./projects/library/src/app/common/*"],
+        "@directives/library/*": ["./projects/library/src/app/directives/*"],
+        "@modules/library/*": ["./projects/library/src/app/modules/*"],
+        "@services/library/*": ["./projects/library/src/app/services/*"]
+      }
+    },
+    "exclude": [
+      "test.ts",
+      "**/*.spec.ts"
+    ],
+    "files": [
+      "./src/app/app.module.ts",
+      "./src/main.ts",
+      "./src/polyfills.ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ]
+  }
+  

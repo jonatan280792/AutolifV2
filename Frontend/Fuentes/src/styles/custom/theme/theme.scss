@@ -1,0 +1,43 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+$custom-typography: mat-typography-config($font-family: '"$proxima-nova"');
+@include mat-core($custom-typography);
+
+$Frontend-primary: mat-palette($mat-indigo);
+$Frontend-accent: mat-palette($mat-pink, a200, a100, a400);
+$Frontend-warn: mat-palette($mat-red);
+$Frontend-theme: mat-light-theme(
+  $Frontend-primary,
+  $Frontend-accent,
+  $Frontend-warn
+);
+
+@include angular-material-theme($Frontend-theme);
+
+// Dark theme
+.blue-dark {
+  color: $light-primary-text;
+  $dark-primary: mat-palette($mat-indigo);
+  $dark-accent: mat-palette($mat-amber, a400, a100, a700);
+  $dark-warn: mat-palette($mat-red);
+  $dark-theme: mat-dark-theme( $dark-primary, $dark-accent, $dark-warn );
+
+  @include angular-material-theme($dark-theme);
+};
+
+// Dark theme
+.pink-dark {
+  color: $light-primary-text;
+  $dark-primary: mat-palette($mat-pink);
+  $dark-accent: mat-palette($mat-amber, a400, a100, a700);
+  $dark-warn: mat-palette($mat-red);
+  $dark-pink: mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
+
+  @include angular-material-theme($dark-pink);
+}
+
+$custom-typography: mat-typography-config(
+  $font-family: '$proxima-nova'
+);
+@include angular-material-typography($custom-typography);

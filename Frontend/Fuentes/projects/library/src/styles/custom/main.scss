@@ -1,0 +1,16 @@
+@import 'mixins/font-style';
+
+.app-library {
+  // font-family: $proxima-nova;
+  @include font-style('$proxima-nova', 28px);
+  @import 'modules/dashboard';
+  @import 'modules/logged-user';
+  @import 'modules/aircraft';
+  @import 'modules/pilot';
+
+  /* Partials */
+  @import 'partials/body';
+  @import 'partials/footer';
+  @import 'partials/header';
+  @import 'partials/pages';
+}

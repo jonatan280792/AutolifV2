@@ -1,0 +1,78 @@
+<div class="section-control">
+  <mat-card>
+    <div class="container">
+      <div class="title">
+        <h1>{{ dataElement ? 'Editar Aeronave': 'Nueva Aeronave' }}</h1>
+      </div>
+      <div class="formulary">
+        <form [formGroup]="formRegister">
+          <div class="row">        
+            <div class="col-md-6">
+              <label class="label-detail">Nombre.</label>
+              <mat-form-field class="input-form" [floatLabel]="'never'">
+                <input
+                  matInput
+                  required                  
+                  placeholder="Ingrese el Nombre"
+                  class="custom-input"
+                  maxlength="100"
+                  name="nombre"
+                  formControlName="nombre"/>
+                <mat-error class="mat-error">Campo requerido</mat-error>
+              </mat-form-field> 
+            </div>
+            <div class="col-md-6">
+              <label class="label-detail">Linea</label>
+              <mat-form-field class="input-form" [floatLabel]="'never'">
+                <mat-select
+                  placeholder="Ingrese la Linera"
+                  name="idLinea"
+                  formControlName="idLinea">
+                  <mat-option *ngFor="let line of lstLines" [value]="line.codigoNegogio">
+                    {{line.descripcion}}
+                  </mat-option>
+                </mat-select>
+                <mat-error class="mat-error">Campo requerido</mat-error>
+              </mat-form-field> 
+            </div>
+          </div>
+          <div class="row">        
+            <div class="col-md-6">
+              <label class="label-detail">Capacidad</label>
+              <mat-form-field class="input-form" [floatLabel]="'never'">
+                <input
+                  matInput
+                  required
+                  placeholder="Ingrese el titulo"
+                  class="custom-input"                  
+                  name="capacidad"
+                  formControlName="capacidad"
+                  (input)="enterOnlyNumbers($event, 'capacidad')"/>
+                <mat-error class="mat-error">Campo requerido</mat-error>
+              </mat-form-field> 
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <label class="label-detail">Descripción</label>
+              <mat-form-field class="input-form" [floatLabel]="'never'">
+                  <textarea 
+                    matInput 
+                    name="descripcion" 
+                    class="text-area" 
+                    maxlength="400"
+                    formControlName="descripcion" 
+                    placeholder="Ingrese la descripcion de la nave"></textarea>
+                <mat-error class="mat-error">Campo requerido</mat-error>
+              </mat-form-field> 
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="button-actions">
+      <button mat-raised-button class="section-btns" type="button" [disabled]="!(formRegister.status === 'VALID' && formRegister.touched)" (click)="controlRegister()" color="primary">Guardar</button>
+      <button mat-raised-button class="section-btns" (click)="close()">Cerrar</button>
+    </div>
+  </mat-card>
+</div>

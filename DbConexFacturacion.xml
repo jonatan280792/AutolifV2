@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <ConfigFile>    
+	<SQL>Data Source=DESKTOP-0112HQG;Initial Catalog=AUTOLIFE;persist security info=True;Integrated Security=SSPI;timeout = 180</SQL>
+  </ConfigFile>
+</DocumentElement>

@@ -1,0 +1,29 @@
+.dashboard {
+  .card-home {
+    .title {
+      text-align: center;
+  
+      h1 {
+        font-weight: 700;
+      }
+    }  
+  }
+  
+  .divider {
+    padding-bottom: 16px;
+    position: inherit;
+  }
+
+  .button-reserva {
+    text-align: center;
+    width: 100%;
+
+    button {
+      padding: 2px 46px;
+    }
+  }
+
+  .mat-form-field-appearance-legacy .mat-form-field-infix {
+    padding: 0.9em 0;
+}
+}

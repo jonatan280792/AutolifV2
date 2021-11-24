@@ -1,0 +1,37 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "paths": {
+      "@common/*": ["./src/app/common/*"],
+      "@common/library/*": ["./projects/library/src/app/common/*"],
+      "@config/*": ["./src/app/config/*"],
+      "@modules/library/*": ["./projects/library/src/app/modules/*"],
+      "@app/library/*": ["./projects/library/src/app/*"],
+      "@imports/*": ["./src/app/imports/*"],
+      "@interceptors/*": ["./src/app/interceptors/*"],
+      "@environments/*": ["./src/environments/*"],
+      "@modules/*": ["./src/app/modules/*"],
+      "@services/*": ["./src/app/services/*"],
+      "@services/library/*": ["./projects/library/src/app/services/*"],
+      "@utils/*": ["./src/app/utils/*"]
+    },
+    "target": "es2015",
+    "module": "es2020",
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false
+  }
+}

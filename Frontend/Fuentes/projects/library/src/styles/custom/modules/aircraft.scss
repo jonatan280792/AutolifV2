@@ -1,0 +1,45 @@
+.section-aircraft {
+  .card-aircraft {
+    .title {
+      text-align: center;
+
+      h1 {
+        font-weight: 700;
+      }
+    }
+
+    .divider {
+      padding-bottom: 16px;
+      position: inherit;
+    }
+
+    .actions-section {
+      display: flex;
+
+      section {
+        flex: 1 50%;
+
+        .filter {
+          position: relative;
+
+          .input-search{
+            position: absolute;
+            bottom: -50px;
+            left: 0;
+            width: 50%;
+          }
+        }
+
+        &:nth-of-type(2) {
+          flex: 2 50%;
+          display: flex;
+          flex-flow: column;
+
+          .buttons {
+            text-align: end;
+          }
+        }
+      }
+    }
+  }
+}

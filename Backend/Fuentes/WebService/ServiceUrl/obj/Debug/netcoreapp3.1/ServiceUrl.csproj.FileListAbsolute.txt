@@ -1,0 +1,180 @@
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.exe
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.deps.json
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.runtimeconfig.json
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.runtimeconfig.dev.json
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.pdb
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Business.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Security.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.csprojAssemblyReference.cache
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.AssemblyInfoInputs.cache
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.AssemblyInfo.cs
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.csproj.CoreCompileInputs.cache
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.MvcApplicationPartsAssemblyInfo.cache
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.RazorTargetAssemblyInfo.cache
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.csproj.CopyComplete
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\staticwebassets\ServiceUrl.StaticWebAssets.Manifest.cache
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\staticwebassets\ServiceUrl.StaticWebAssets.xml
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.pdb
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.genruntimeconfig.cache
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.exe
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.deps.json
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.runtimeconfig.json
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.runtimeconfig.dev.json
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.pdb
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Business.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Security.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.csprojAssemblyReference.cache
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.AssemblyInfoInputs.cache
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.AssemblyInfo.cs
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.csproj.CoreCompileInputs.cache
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.MvcApplicationPartsAssemblyInfo.cache
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.RazorTargetAssemblyInfo.cache
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.csproj.CopyComplete
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\staticwebassets\ServiceUrl.StaticWebAssets.Manifest.cache
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\staticwebassets\ServiceUrl.StaticWebAssets.xml
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.pdb
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.genruntimeconfig.cache
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.exe
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.deps.json
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.runtimeconfig.json
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.runtimeconfig.dev.json
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.pdb
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Security.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.csprojAssemblyReference.cache
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.AssemblyInfo.cs
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\staticwebassets\ServiceUrl.StaticWebAssets.Manifest.cache
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\staticwebassets\ServiceUrl.StaticWebAssets.xml
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\scopedcss\bundle\ServiceUrl.styles.css
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.RazorTargetAssemblyInfo.cache
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.csproj.CopyComplete
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.pdb
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.genruntimeconfig.cache
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.exe
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.deps.json
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.runtimeconfig.json
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.runtimeconfig.dev.json
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\ServiceUrl.pdb
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Security.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.csproj.AssemblyReference.cache
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.AssemblyInfo.cs
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\staticwebassets\ServiceUrl.StaticWebAssets.Manifest.cache
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\staticwebassets\ServiceUrl.StaticWebAssets.xml
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\scopedcss\bundle\ServiceUrl.styles.css
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.RazorTargetAssemblyInfo.cache
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.csproj.CopyComplete
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.pdb
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\ServiceUrl\obj\Debug\netcoreapp3.1\ServiceUrl.genruntimeconfig.cache

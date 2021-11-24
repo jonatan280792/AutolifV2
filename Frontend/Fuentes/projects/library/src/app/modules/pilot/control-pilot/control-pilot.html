@@ -1,0 +1,63 @@
+<div class="section-control">
+  <mat-card>
+    <div class="container">
+      <div class="title">
+        <h1>{{ dataElement ? 'Editar Piloto': 'Nuevo Piloto' }}</h1>
+      </div>
+      <div class="formulary">
+        <form [formGroup]="formRegister">
+          <div class="row">        
+            <div class="col-md-6">
+              <label class="label-detail">Nombres.</label>
+              <mat-form-field class="input-form" [floatLabel]="'never'">
+                <input
+                  matInput
+                  required                  
+                  placeholder="Ingrese el Nombre"
+                  class="custom-input"
+                  maxlength="100"
+                  name="nombres"
+                  formControlName="nombres"/>
+                <mat-error class="mat-error">Campo requerido</mat-error>
+              </mat-form-field> 
+            </div>
+            <div class="col-md-6">
+              <label class="label-detail">Apellidos</label>
+              <mat-form-field class="input-form" [floatLabel]="'never'">
+                <input
+                  matInput
+                  required                  
+                  placeholder="Ingrese el apellido"
+                  class="custom-input"
+                  maxlength="100"
+                  name="apellidos"
+                  formControlName="apellidos"/>
+                <mat-error class="mat-error">Campo requerido</mat-error>
+              </mat-form-field> 
+            </div>
+          </div>
+          <div class="row">        
+            <div class="col-md-6">
+              <label class="label-detail">Aerolinea</label>
+              <mat-form-field class="input-form" [floatLabel]="'never'">
+                <mat-select
+                  placeholder="Ingrese la Linera"
+                  name="idAeronave"
+                  formControlName="idAeronave">
+                  <mat-option *ngFor="let aircraft of lstAircraft" [value]="aircraft.id">
+                    {{aircraft.nombre}}
+                  </mat-option>
+                </mat-select>
+                <mat-error class="mat-error">Campo requerido</mat-error>
+              </mat-form-field> 
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="button-actions">
+      <button mat-raised-button class="section-btns" type="button" [disabled]="!(formRegister.status === 'VALID' && formRegister.touched)" (click)="controlRegister()" color="primary">Guardar</button>
+      <button mat-raised-button class="section-btns" (click)="close()">Cerrar</button>
+    </div>
+  </mat-card>
+</div>

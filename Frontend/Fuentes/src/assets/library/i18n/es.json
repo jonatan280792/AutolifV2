@@ -1,0 +1,40 @@
+{
+  "logged-user": {
+    "themes": {
+      "theme1": "Azul y Blanco",
+      "theme2": "Rosa y Negro",
+      "theme3": "Azul y Negro"      
+    }
+  },
+  "homeToolbar": "Autolife, taller mecanico",
+  "menu": {
+    "home": "Registro",
+    "pilots": "Historial",
+    "aircraft": "Servicios",
+    "exit": "Salir"
+  },
+  "pages": {
+    "aircraft": {
+      "title": "Registro y control de aeronaves",
+      "filterInput": "Filtrar",
+      "placeFilter": "Ingrese un criterio de búsqueda",
+      "headTableId": "No.",
+      "headTableName": "Nombre",
+      "headTableIdLinea": "Id Linea",
+      "headTableLinea": "Linea",
+      "headTableCapacidad": "Capacidad",
+      "headTableStatus": "Estado"
+    },
+    "pilot": {
+      "title": "Registro y control de pilotos",
+      "filterInput": "Filtrar",
+      "placeFilter": "Ingrese un criterio de búsqueda",
+      "headTableId": "No.",
+      "headTableName": "Nombres",
+      "headTableLastName": "Apellidos",
+      "headTableIdAeronave": "Id Aeronave",
+      "headTableIdLinea": "Aeronave",      
+      "headTableStatus": "Estado"
+    }
+  }
+}

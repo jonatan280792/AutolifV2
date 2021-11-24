@@ -1,0 +1,40 @@
+{
+  "logged-user": {
+    "themes": {
+      "theme1": "Blue & White",
+      "theme2": "Pink & Black",
+      "theme3": "Blue & Black"      
+    }
+  },
+  "homeToolbar": "Expert development, Jonatan Alexander Rojas Ramirez",
+  "menu": {
+    "home": "Home",
+    "aircraft": "Aircraft",
+    "pilots": "Pilots",
+    "exit": "Exit"
+  },
+  "pages": {
+    "aircraft": {
+      "title": "Aircraft registration and control",
+      "filterInput": "Filter",
+      "placeFilter": "Enter a search criteria",
+      "headTableId": "No.",
+      "headTableName": "Name",
+      "headTableIdLinea": "Id Line",
+      "headTableLinea": "Line",
+      "headTableCapacidad": "Capaciti",
+      "headTableStatus": "Status"
+    },
+    "pilot": {
+      "title": "Pilot registration and control",
+      "filterInput": "Filter",
+      "placeFilter": "Enter a search criteria",
+      "headTableId": "No.",
+      "headTableName": "Names",
+      "headTableLastName": "Last Names",
+      "headTableIdAeronave": "Id Aircraft",
+      "headTableIdLinea": "Aircraft",
+      "headTableStatus": "Status"
+    }
+  }
+}

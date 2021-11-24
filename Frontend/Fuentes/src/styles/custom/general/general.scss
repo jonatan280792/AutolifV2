@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100%;
+  width: 99%;
+}
+
+body {
+  font-family: $font-nova;
+  margin: 0;
+}
+
+.input-form {
+  width: 100%;
+}
+
+.label-detail {
+  font-weight: 600;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.slide-toggle-class {
+  margin-top: 16px;
+}

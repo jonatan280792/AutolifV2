@@ -1,0 +1,122 @@
+USE [facturacion]
+GO
+/****** Object:  StoredProcedure [dbo].[Script1]    Script Date: 2/09/2020 7:52:17 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Jonatan Alexander Rojas>
+-- Create date: <Create Date,2020/09/01>
+-- Description:	<Description, Obtener la lista de precios de todos los productos>
+-- =============================================
+CREATE PROCEDURE [dbo].[Script1]	
+	@estado BIT = 1
+	AS
+BEGIN
+
+	SELECT 
+		P.id_producto,
+		producto,
+		estado,
+		precio,
+		I.inventario
+	FROM [dbo].[productos] P
+	INNER JOIN [dbo].[inventario] I
+		ON P.id_producto = I.id_producto
+	WHERE estado = @estado	
+END
+GO
+/****** Object:  StoredProcedure [dbo].[Script2]    Script Date: 2/09/2020 7:52:17 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Jonatan Alexander Rojas>
+-- Create date: <Create Date,2020/09/01>
+-- Description:	<Description, Obtener la lista de productos cuya existencia en el inventario haya llegado al mínimo permitido (5 unidades)>
+-- =============================================
+CREATE PROCEDURE [dbo].[Script2]	
+	@estado BIT = 1,
+	@minStock INT = 5
+	AS
+BEGIN
+
+	SELECT 
+		id_producto,
+		producto,
+		estado,
+		precio,
+		inventario
+	FROM [dbo].[productos] 
+	WHERE inventario <= @minStock
+	AND estado = @estado	
+END
+GO
+/****** Object:  StoredProcedure [dbo].[Script3]    Script Date: 2/09/2020 7:52:17 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Jonatan Alexander Rojas>
+-- Create date: <Create Date,2020/09/01>
+-- Description:	<Description,Obtener una lista de clientes no mayores de 35 años que hayan realizado compras entre el 1 de febrero de 2000 y el 25 de mayo de 2000>
+-- =============================================
+CREATE PROCEDURE [dbo].[Script3]	
+	@estado BIT = 1,
+	@minEdad INT = 35
+	AS
+BEGIN
+	DECLARE
+		@fechaActual DATETIME = getdate(),
+		@fechaUno DATETIME = '20000201',
+		@fechaDos DATETIME = '20000525'		
+
+	SELECT 
+		c.id_cliente,
+		c.nombres,
+		c.apellidos,
+		TRIM(c.apellidos) + ' ' + TRIM(c.nombres) AS cliente,
+		c.estado,
+		c.fecha_nacimiento,
+		DATEDIFF(year, c.[fecha_nacimiento], @fechaActual) AS años
+		
+	FROM [dbo].[clientes] c
+	INNER JOIN [dbo].[ventas] v
+		ON c.id_cliente = v.id_cliente
+	WHERE (DATEDIFF(year, c.[fecha_nacimiento], @fechaActual)) <= @minEdad
+	AND v.fecha_compra BETWEEN @fechaUno AND @fechaDos
+	GROUP BY C.id_cliente, c.nombres, c.apellidos, c.estado, c.fecha_nacimiento
+END
+GO
+/****** Object:  StoredProcedure [dbo].[Script4]    Script Date: 2/09/2020 7:52:17 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Jonatan Alexander Rojas>
+-- Create date: <Create Date,2020/09/01>
+-- Description:	<Description,Obtener el valor total vendido por cada producto en el año 2000>
+-- =============================================
+CREATE PROCEDURE [dbo].[Script4]	
+	@estado BIT = 1,
+	@ano INT = 2000
+	AS
+BEGIN
+	
+	SELECT 
+		P.id_producto,
+		P.producto,
+		SUM(v.valor) total,
+		P.estado
+	FROM [dbo].[productos] P
+	INNER JOIN [dbo].[ventas] V
+		ON P.id_producto = V.id_producto
+	WHERE YEAR(V.fecha_compra) = @ano
+	GROUP BY P.id_producto, P.producto, P.estado
+
+END
+GO

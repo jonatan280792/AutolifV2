@@ -1,0 +1,35 @@
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Security\bin\Debug\netcoreapp3.1\Security.deps.json
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Security\bin\Debug\netcoreapp3.1\Security.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Security\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Security\obj\Debug\netcoreapp3.1\Security.csprojAssemblyReference.cache
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Security\obj\Debug\netcoreapp3.1\Security.AssemblyInfoInputs.cache
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Security\obj\Debug\netcoreapp3.1\Security.AssemblyInfo.cs
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Security\obj\Debug\netcoreapp3.1\Security.csproj.CoreCompileInputs.cache
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Security\obj\Debug\netcoreapp3.1\Security.dll
+C:\Source\challengeDeveloperSenior.NET\Backend\WebLibrary\Security\obj\Debug\netcoreapp3.1\Security.pdb
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Security\bin\Debug\netcoreapp3.1\Security.deps.json
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Security\bin\Debug\netcoreapp3.1\Security.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Security\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Security\obj\Debug\netcoreapp3.1\Security.csprojAssemblyReference.cache
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Security\obj\Debug\netcoreapp3.1\Security.AssemblyInfoInputs.cache
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Security\obj\Debug\netcoreapp3.1\Security.AssemblyInfo.cs
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Security\obj\Debug\netcoreapp3.1\Security.csproj.CoreCompileInputs.cache
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Security\obj\Debug\netcoreapp3.1\Security.dll
+C:\Source\challengeDeveloperSenior.NET\2. Backend\Fuentes\WebLibrary\Security\obj\Debug\netcoreapp3.1\Security.pdb
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Security\bin\Debug\netcoreapp3.1\Security.deps.json
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Security\bin\Debug\netcoreapp3.1\Security.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Security\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.AssemblyInfo.cs
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.dll
+C:\Users\jonat\Documents\git Hub\AngularDesarrolladorExperto\2. Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.pdb
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Security\bin\Debug\netcoreapp3.1\Security.deps.json
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Security\bin\Debug\netcoreapp3.1\Security.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Security\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.csproj.AssemblyReference.cache
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.AssemblyInfo.cs
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.dll
+C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.pdb

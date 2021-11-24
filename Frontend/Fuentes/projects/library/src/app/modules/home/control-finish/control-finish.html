@@ -1,0 +1,160 @@
+<div class="section-control">
+	<mat-card>
+		<div class="container">
+			<div class="title">
+        <h1>Detalles factura</h1>
+      </div>
+    </div>
+    <div class="formulary">
+      <form [formGroup]="formFinish">
+        <div class="row">
+          <div class="col-md-4">
+            <label class="label-detail">Placa.</label>
+            <mat-form-field class="input-form" [floatLabel]="'never'">
+              <input
+                matInput
+                required
+                placeholder="Ingrese la placa"
+                class="custom-input"
+                maxlength="6"
+                name="placa"
+                formControlName="placa"/>
+              <mat-error class="mat-error">Campo requerido</mat-error>
+            </mat-form-field> 
+          </div>
+          <div class="col-md-8">
+            <label class="label-detail">Propietario.</label>
+            <mat-form-field class="input-form" [floatLabel]="'never'">
+              <input
+                matInput
+                required
+                placeholder="Ingrese el propietario"
+                class="custom-input"
+                maxlength="50"
+                name="propietario"
+                formControlName="propietario"/>
+              <mat-error class="mat-error">Campo requerido</mat-error>
+            </mat-form-field> 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label class="label-detail">Tipo Documento.</label>
+            <mat-form-field class="input-form" [floatLabel]="'never'">
+              <mat-select 
+                placeholder="Ingrese el tipo documento"
+                name="tipoIdentificacion"
+                formControlName="tipoIdentificacion">
+                <mat-option [value]="'CC'">Cedula de Ciudadania</mat-option>
+                <mat-option [value]="'NIT'">NIT.</mat-option>
+              </mat-select>
+              <mat-error class="mat-error">Campo requerido</mat-error>
+            </mat-form-field> 
+          </div>
+          <div class="col-md-6">
+            <label class="label-detail">Documento.</label>
+            <mat-form-field class="input-form" [floatLabel]="'never'">
+              <input
+                matInput
+                placeholder="Ingrese el documento"
+                class="custom-input"
+                maxlength="12"
+                name="identificacion"
+                formControlName="identificacion"/>
+            </mat-form-field> 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label class="label-detail">Marca.</label>
+            <mat-form-field class="input-form" [floatLabel]="'never'">
+              <input
+                  matInput
+                  required
+                  placeholder="Buscar Marca"
+                  class="custom-input"
+                  maxlength="100"
+                  name="marca"
+                  formControlName="marca"
+									[matAutocomplete]="autoMarca"/>
+									<mat-autocomplete (optionSelected)="optionSelected($event.option)" #autoMarca="matAutocomplete">
+										<mat-option *ngFor="let marca of filteredMarca | async" [value]="marca.marca">
+											{{marca.marca}}
+										</mat-option>
+									</mat-autocomplete>
+                <mat-error class="mat-error">Campo requerido</mat-error>
+
+              <!-- <mat-select 
+                placeholder="Ingrese la marca"
+                name="marca"
+                formControlName="marca">
+                <mat-option *ngFor="let option of lstMarcas" [value]="option.marcaID">{{ option.marca }}</mat-option>
+              </mat-select> -->
+              <mat-error class="mat-error">Campo requerido</mat-error>
+            </mat-form-field>
+          </div>
+          <div class="col-md-6">
+            <label class="label-detail">Modelo.</label>
+            <mat-form-field class="input-form" [floatLabel]="'never'">
+              <input
+                matInput
+                placeholder="Ingrese el documento"
+                class="custom-input"
+                maxlength="12"
+                name="modelo"
+                formControlName="modelo"/>
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="container-fluid" style="padding-bottom: 25px;">
+          <mat-divider class="divider"></mat-divider>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label class="label-detail">Mecanica.</label>
+            <mat-form-field class="input-form" [floatLabel]="'never'">
+              <textarea 
+                matInput 
+                class="text-area" 
+                maxlength="300"
+                name="mecanica"
+                formControlName="mecanica" 
+                placeholder="Ingrese descripcion mecanica"></textarea>
+              <mat-error class="mat-error">Campo requerido</mat-error>
+            </mat-form-field> 
+          </div>
+          <div class="col-md-6">
+            <label class="label-detail">Latoneria.</label>
+            <mat-form-field class="input-form" [floatLabel]="'never'">
+              <textarea 
+                matInput 
+                class="text-area" 
+                maxlength="300"
+                name="latoneria"
+                formControlName="latoneria" 
+                placeholder="Ingrese descripcion Latoneria"></textarea>
+            </mat-form-field> 
+          </div>
+          <div class="col-md-6">
+            <label class="label-detail">Pintura.</label>
+            <mat-form-field class="input-form" [floatLabel]="'never'">
+              <textarea 
+                matInput 
+                class="text-area" 
+                maxlength="300"
+                name="pintura"
+                formControlName="pintura" 
+                placeholder="Ingrese descripcion pintura"></textarea>
+              <mat-error class="mat-error">Campo requerido</mat-error>
+            </mat-form-field> 
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="button-actions">
+      <button mat-raised-button class="section-btns" type="button" [disabled]="!(formFinish.status === 'VALID' && formFinish.touched)" (click)="addFinish(formFinish.value)" color="primary">Guardar</button>
+      <button mat-raised-button class="section-btns" (click)="close()">Salir</button>
+    </div>
+  </mat-card>
+</div>
