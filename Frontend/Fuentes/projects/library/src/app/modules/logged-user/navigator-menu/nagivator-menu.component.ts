@@ -48,39 +48,13 @@ export class NavigatorMenuComponent implements OnInit {
         title: 'menu.home',
         url: '/home',
         icon: 'dashboard'
+      },
+      {
+        title: 'menu.fac',
+        url: 'aircraft',
+        icon: 'avion'
       }
     ];
-
-    if (this.userData.tipo === 'A') {
-      this.menu.push(
-        // {
-        //   title: 'menu.aircraft',
-        //   url: 'aircraft',
-        //   icon: 'avion'
-        // },
-        {
-          title: 'menu.pilots',
-          url: 'pilot',
-          icon: 'piloto'
-        }
-      );
-    } else if (this.userData.tipo === 'P') {
-      this.menu.push(
-        {
-          title: 'menu.pilots',
-          url: 'pilot',
-          icon: 'piloto'
-        }
-      );
-    } else {
-      this.menu.push(
-        {
-          title: 'menu.aircraft',
-          url: 'aircraft',
-          icon: 'avion'
-        }
-      );
-    }
   }
 
   onSinenavToggle() {

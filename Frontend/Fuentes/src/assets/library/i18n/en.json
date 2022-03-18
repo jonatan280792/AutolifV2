@@ -9,6 +9,7 @@
   "homeToolbar": "Expert development, Jonatan Alexander Rojas Ramirez",
   "menu": {
     "home": "Home",
+    "fac": "Factures",
     "aircraft": "Aircraft",
     "pilots": "Pilots",
     "exit": "Exit"

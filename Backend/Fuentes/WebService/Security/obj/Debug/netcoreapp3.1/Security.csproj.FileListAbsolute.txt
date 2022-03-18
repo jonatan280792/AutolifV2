@@ -33,3 +33,13 @@ C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Security\ob
 C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.csproj.CoreCompileInputs.cache
 C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.dll
 C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Security\bin\Debug\netcoreapp3.1\Security.deps.json
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Security\bin\Debug\netcoreapp3.1\Security.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Security\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.csproj.AssemblyReference.cache
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.AssemblyInfo.cs
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Security\obj\Debug\netcoreapp3.1\Security.pdb

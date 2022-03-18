@@ -1,13 +1,27 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-import { LibraryService } from '@app/library/services/library-services';
+import * as moment from 'moment';
 import {
-  enterOnlyNumbers
-} from '@utils/index';
+  Component,
+  EventEmitter,
+  Input,
+  OnInit,
+  Output
+} from '@angular/core';
+import {
+  FormBuilder,
+  FormControl,
+  FormGroup,
+  Validators
+} from '@angular/forms';
+import {
+  map,
+  startWith
+} from 'rxjs/operators';
+import { enterOnlyNumbers } from '@utils/index';
+import { LibraryService } from '@app/library/services/library-services';
 import { ModalService } from '@common/modal/modal.service';
-import { SnackBarService } from '@common/snack-bar/snack-bar-service';
 import { Observable } from 'rxjs';
-import { map, startWith } from 'rxjs/operators';
+import { SnackBarService } from '@common/snack-bar/snack-bar-service';
+// import { NgxSpinnerService } from 'ngx-spinner';
 
 @Component({
   selector: 'app-control-products',
@@ -24,12 +38,13 @@ export class ControlProductsComponent implements OnInit {
   public lstServicios: any;
   validNoResult: number;
   data: any;
-  mensajeVacio = 'Agregar servicio "';
+  mensajeVacio = 'Agregar servicio: (';
 
   constructor(
     private fb: FormBuilder,
     private libraryService: LibraryService,
     private modalService: ModalService,
+    // private spinner: NgxSpinnerService,
     private snackBarService: SnackBarService
   ) { }
 
@@ -38,10 +53,10 @@ export class ControlProductsComponent implements OnInit {
   }
 
   initValues() {
+    // this.spinner.show();
     this.formRegister = this.fb.group({
-      id: this.dataElement ? this.dataElement.id : 0,
-      // nombreid: [this.dataElement ? this.dataElement.nombreid : null],
-      nombre: [this.dataElement ? this.dataElement.nombre : null, Validators.required],
+      servicioID: this.dataElement ? this.dataElement.servicioID : 0,
+      servicio: [this.dataElement ? this.dataElement.servicio : null, Validators.required],
       valor: [this.dataElement ? this.dataElement.valor : null, Validators.required]
     });
 
@@ -49,8 +64,9 @@ export class ControlProductsComponent implements OnInit {
 
     this.libraryService.getServicios().subscribe(response => {
       this.lstServicios = response;
+      // this.spinner.hide();
 
-      this.filteredServicio = this.formRegister.controls['nombre'].valueChanges
+      this.filteredServicio = this.formRegister.controls['servicio'].valueChanges
       .pipe(
         startWith(''),
         map(service => service ? this.filterServices(service) : this.lstServicios.slice())
@@ -60,21 +76,17 @@ export class ControlProductsComponent implements OnInit {
 
   private filterServices(value: string) {
     const filterValue = value.toLowerCase();
-    let serviceValue = this.lstServicios.filter(x => x.nombre.toLowerCase().indexOf(filterValue) === 0);
+    let serviceValue = this.lstServicios.filter(x => x.servicio.toLowerCase().indexOf(filterValue) === 0);
     this.validNoResult = serviceValue.length;
 
-    if (serviceValue.length === 1) {
-      
-    }
-
-    if (serviceValue.length === 0) {
-      serviceValue = [{
+    if (serviceValue.length === 0 && filterValue.length > 3) {
+        serviceValue = [{
         estado: true,
         fechaRegistro: '',
-        id: 0,
-        nombre: this.mensajeVacio + value + '"',
+        servicioID: 0,
+        servicio: this.mensajeVacio + value + ')',
         valor: 0
-      }]
+      }];
     }
 
     return serviceValue;
@@ -85,32 +97,41 @@ export class ControlProductsComponent implements OnInit {
       this.addOption();
     } else {
       const filterValue = option.value.toLowerCase();
-      let serviceValue = this.lstServicios.filter(x => x.nombre.toLowerCase().indexOf(filterValue) === 0);
+      let serviceValue = this.lstServicios.filter(x => x.servicio.toLowerCase().indexOf(filterValue) === 0);
 
-      this.formRegister.get('id').setValue(serviceValue[0].id);
-      this.formRegister.get('nombre').setValue(serviceValue[0].nombre);
+      this.formRegister.get('servicioID').setValue(serviceValue[0].servicioID);
+      this.formRegister.get('servicio').setValue(serviceValue[0].servicio);
       this.formRegister.get('valor').setValue(serviceValue[0].valor);
     }
   }
 
   addOption() {
-    let option = this.removePromptFromOption(this.formRegister.controls['nombre'].value);
-    const verificarNuevo = this.lstServicios.find(x => x.nombre === option);
-    if (!verificarNuevo) {
-      this.libraryService.setServicios({
-        nombre: option,
-        valor: 0
-      }).subscribe(response => {
+    let option = this.removePromptFromOption(this.formRegister.controls['servicio'].value);
 
-        this.snackBarService.showSnackBar(response.message, 'Cerrar', response.status === 'Ok' ? 3000 : 5000);
-      });
+    const dataService = {
+      estado: true,
+      fechaRegistro: moment().format(),
+      servicioID: 0,
+      servicio: option,
+      valor: 0
     }
 
-    if (!this.lstServicios.some(entry => entry === option)) {
-      const index = this.lstServicios.push(option) - 1;
-      this.formRegister.controls['nombre'].setValue(this.lstServicios[index]);
-      this.formRegister.get('valor').setValue(0);
-    }
+    this.libraryService.setServicios(dataService).subscribe(response => {
+      dataService.servicioID = response.estado;
+
+      const index = this.lstServicios.push(dataService) - 1;
+      this.formRegister.get('servicioID').setValue(this.lstServicios[index].servicioID);
+      this.formRegister.get('servicio').setValue(this.lstServicios[index].servicio);
+      this.formRegister.get('valor').setValue(null);
+      // if (!this.lstServicios.some(entry => entry === option)) {
+      //   const index = this.lstServicios.push(dataService) - 1;
+      //   this.formRegister.get('servicioID').setValue(this.lstServicios[index].servicioID);
+      //   this.formRegister.get('servicio').setValue(this.lstServicios[index].servicio);
+      //   this.formRegister.get('valor').setValue(null);
+      // }
+
+      this.snackBarService.showSnackBar(response.mensaje);
+    });
   }
 
   removePromptFromOption(option) {
@@ -122,8 +143,8 @@ export class ControlProductsComponent implements OnInit {
 
   addProduct(formRegister) {
     const dataProduct = {
-      id: formRegister.id,
-      nombre: formRegister.nombre,
+      servicioID: formRegister.servicioID,
+      servicio: formRegister.servicio,
       valor: formRegister.valor
     }
 

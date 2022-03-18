@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  serviceUrl: 'http://localhost:52395'
+  serviceUrl: 'http://127.0.0.1/AutolifeAPI'
 };

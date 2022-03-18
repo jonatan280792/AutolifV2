@@ -83,13 +83,6 @@
 										</mat-option>
 									</mat-autocomplete>
                 <mat-error class="mat-error">Campo requerido</mat-error>
-
-              <!-- <mat-select 
-                placeholder="Ingrese la marca"
-                name="marca"
-                formControlName="marca">
-                <mat-option *ngFor="let option of lstMarcas" [value]="option.marcaID">{{ option.marca }}</mat-option>
-              </mat-select> -->
               <mat-error class="mat-error">Campo requerido</mat-error>
             </mat-form-field>
           </div>
@@ -110,7 +103,7 @@
           <mat-divider class="divider"></mat-divider>
         </div>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <label class="label-detail">Mecanica.</label>
             <mat-form-field class="input-form" [floatLabel]="'never'">
               <textarea 
@@ -119,11 +112,11 @@
                 maxlength="300"
                 name="mecanica"
                 formControlName="mecanica" 
-                placeholder="Ingrese descripcion mecanica"></textarea>
+                placeholder="Ingrese descripción mecanica"></textarea>
               <mat-error class="mat-error">Campo requerido</mat-error>
             </mat-form-field> 
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12">
             <label class="label-detail">Latoneria.</label>
             <mat-form-field class="input-form" [floatLabel]="'never'">
               <textarea 
@@ -132,10 +125,10 @@
                 maxlength="300"
                 name="latoneria"
                 formControlName="latoneria" 
-                placeholder="Ingrese descripcion Latoneria"></textarea>
+                placeholder="Ingrese descripción Latoneria"></textarea>
             </mat-form-field> 
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12">
             <label class="label-detail">Pintura.</label>
             <mat-form-field class="input-form" [floatLabel]="'never'">
               <textarea 
@@ -144,7 +137,7 @@
                 maxlength="300"
                 name="pintura"
                 formControlName="pintura" 
-                placeholder="Ingrese descripcion pintura"></textarea>
+                placeholder="Ingrese descripción pintura"></textarea>
               <mat-error class="mat-error">Campo requerido</mat-error>
             </mat-form-field> 
           </div>
@@ -153,7 +146,13 @@
     </div>
 
     <div class="button-actions">
-      <button mat-raised-button class="section-btns" type="button" [disabled]="!(formFinish.status === 'VALID' && formFinish.touched)" (click)="addFinish(formFinish.value)" color="primary">Guardar</button>
+      <button
+        mat-raised-button
+        class="section-btns"
+        type="button"
+        [disabled]="!(formFinish.status === 'VALID' && formFinish.touched)"
+        (click)="addFinish(formFinish.value)"
+        color="primary">Guardar</button>
       <button mat-raised-button class="section-btns" (click)="close()">Salir</button>
     </div>
   </mat-card>

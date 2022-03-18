@@ -21,7 +21,7 @@ $Frontend-theme: mat-light-theme(
   $dark-primary: mat-palette($mat-indigo);
   $dark-accent: mat-palette($mat-amber, a400, a100, a700);
   $dark-warn: mat-palette($mat-red);
-  $dark-theme: mat-dark-theme( $dark-primary, $dark-accent, $dark-warn );
+  $dark-theme: mat-dark-theme($dark-primary, $dark-accent, $dark-warn );
 
   @include angular-material-theme($dark-theme);
 };

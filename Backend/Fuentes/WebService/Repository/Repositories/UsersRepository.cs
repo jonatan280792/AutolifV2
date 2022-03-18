@@ -43,20 +43,20 @@ namespace Repository.Repositories
                         cmd.SelectCommand.Parameters.Add("@status", SqlDbType.Bit).Value = true;
                         cmd.Fill(tblResult);
 
-                        if (tblResult.AsEnumerable().First()["codigo"].ToString() == "Ok")
+                        if (tblResult.AsEnumerable().First()["Codigo"].ToString() == "Ok")
                         {
-                            Usuario usuarioDto = new Usuario()
+                            UsuarioDto usuarioDto = new UsuarioDto()
                             {
-                                id = Convert.ToInt32(tblResult.AsEnumerable().First()["id"]),
-                                usuario = tblResult.AsEnumerable().First()["usuario"].ToString(),
-                                tipo = tblResult.AsEnumerable().First()["tipo"].ToString(),
-                                token = _tokenService.generateTokenJwt(_config, userName)
+                                UsuarioID = (int)tblResult.AsEnumerable().First()["UsuarioID"],
+                                Usuario = tblResult.AsEnumerable().First()["usuario"].ToString(),
+                                Tipo = tblResult.AsEnumerable().First()["Tipo"].ToString(),
+                                Token = _tokenService.generateTokenJwt(_config, userName)
                             };
-                            resultUsuario.codigo = tblResult.AsEnumerable().First()["codigo"].ToString();
-                            resultUsuario.usuario = usuarioDto;
+                            resultUsuario.Codigo = tblResult.AsEnumerable().First()["codigo"].ToString();
+                            resultUsuario.Usuario = usuarioDto;
                         } else
                         {
-                            resultUsuario.codigo = "Error";
+                            resultUsuario.Codigo = "Error";
                         }
 
                         cmd.Dispose();

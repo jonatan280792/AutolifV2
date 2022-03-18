@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "81qTQDD+Czp1WTnqcdYH5rKW6R4anMaxi0XehxqQ/CaekrJbYzlsdXde/drqAuXjmd9306YVjtvpXQ09e/GVjw==",
+  "dgSpecHash": "sJ4xT1MaJQMer20ueBhjdYR6uaGDt1CDRf3291P0SKLdtuGjMyH5mqM9CVwhL0DLUAWJ+V+lCiXYApk+9WIz+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj",
+  "projectFilePath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jonat\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.9\\microsoft.extensions.configuration.abstractions.3.1.9.nupkg.sha512",

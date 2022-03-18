@@ -1,23 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Entity.Dtos
 {
     public class FacturaDto
     {
-        public int facturaID { get; set; }
-        public string placa { get; set; }
-        public string propietario { get; set; }
-        public string tipoIdentificacion { get; set; }
-        public string identificacion { get; set; }
-        public int marcaID { get; set; }
-        public string marca { get; set; }
-        public string modelo { get; set; }
-        public decimal total { get; set; }
-        public string mecanica { get; set; }
-        public string latoneria { get; set; }
-        public string pintura { get; set; }
+        public int FacturaID { get; set; }
+        public string Placa { get; set; }
+        public string Propietario { get; set; }
+        public string TipoIdentificacion { get; set; }
+        public string Identificacion { get; set; }
+        public int MarcaID { get; set; }
+        public string Marca { get; set; }
+        public string Modelo { get; set; }
+        public decimal Total { get; set; }
+        public string Mecanica { get; set; }
+        public string Latoneria { get; set; }
+        public string Pintura { get; set; }
+        public DateTime FechaCreacion { get; set; }
         public List<ServiciosDto> servicios { get; set; }
         public FacturaDto()
         {

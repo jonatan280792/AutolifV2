@@ -19,11 +19,11 @@ namespace Entity.Mappers
                 {
                     lst.Add(new ServiciosDto()
                     {
-                        id = Convert.ToInt32(row["id"].ToString()),
-                        nombre = row["nombre"].ToString(),
-                        valor = Convert.ToDecimal(row["valor"].ToString()),
-                        fechaRegistro = Convert.ToDateTime(row["fechaRegistro"].ToString()),
-                        estado = Convert.ToBoolean(row["estado"].ToString()),
+                        ServicioID = (int)row["ServicioID"],
+                        Servicio = row["Servicio"].ToString(),
+                        Valor = (decimal)row["Valor"],
+                        FechaRegistro = (DateTime)row["FechaRegistro"],
+                        Estado = (bool)row["estado"],
                     });
                 }
             }
@@ -42,9 +42,9 @@ namespace Entity.Mappers
                 {
                     lst.Add(new MarcasDto()
                     {
-                        marcaID = (int)row["marcaID"],
-                        marca = row["marca"].ToString(),
-                        estado = (bool)row["estado"]
+                        MarcaID = (int)row["MarcaID"],
+                        Marca = row["Marca"].ToString(),
+                        Estado = (bool)row["Estado"]
                     });
                 }
             }
@@ -61,36 +61,36 @@ namespace Entity.Mappers
             List<ServiciosDto> lstServicios = new List<ServiciosDto>();
 
             DataTable header = data.Tables[0];
-            DataTable pregunta = data.Tables[1];
+            DataTable servicios = data.Tables[1];
 
-            if (pregunta != null)
+            if (servicios != null)
             {
-                foreach (DataRow element in pregunta.Rows)
+                foreach (DataRow element in servicios.Rows)
                 {
                     ServiciosDto servicio = new ServiciosDto();
                     lstServicios.Add(servicio);
 
-                    servicio.id = (int)element["servicioID"];
-                    // servicio.servicioID = (int)element["servicioID"];
-                    servicio.nombre = element["nombre"].ToString();
-                    servicio.valor = (decimal)element["valor"];
+                    servicio.ServicioID = (int)element["ServicioID"];
+                    servicio.Servicio = element["Servicio"].ToString();
+                    servicio.Valor = (decimal)element["ValorServicio"];
                 }
             }
 
             if (header != null)
             {
-                factura.facturaID = (int)header.AsEnumerable().First()["facturaID"];
-                factura.placa = header.AsEnumerable().First()["placa"].ToString();
-                factura.propietario = header.AsEnumerable().First()["propietario"].ToString();
-                factura.tipoIdentificacion = header.AsEnumerable().First()["tipoIdentificacion"].ToString();
-                factura.identificacion = header.AsEnumerable().First()["identificacion"].ToString();
-                factura.marcaID = (int)header.AsEnumerable().First()["marcaID"];
-                factura.marca = header.AsEnumerable().First()["marca"].ToString();
-                factura.modelo = header.AsEnumerable().First()["modelo"].ToString();
-                factura.total = (decimal)header.AsEnumerable().First()["total"];
-                factura.mecanica = header.AsEnumerable().First()["mecanica"].ToString();
-                factura.latoneria = header.AsEnumerable().First()["latoneria"].ToString();
-                factura.pintura = header.AsEnumerable().First()["pintura"].ToString();
+                factura.FacturaID = (int)header.AsEnumerable().First()["FacturaID"];
+                factura.Placa = header.AsEnumerable().First()["Placa"].ToString();
+                factura.Propietario = header.AsEnumerable().First()["Propietario"].ToString();
+                factura.TipoIdentificacion = header.AsEnumerable().First()["TipoIdentificacion"].ToString();
+                factura.Identificacion = header.AsEnumerable().First()["Identificacion"].ToString();
+                factura.MarcaID = (int)header.AsEnumerable().First()["MarcaID"];
+                factura.Marca = header.AsEnumerable().First()["Marca"].ToString();
+                factura.Modelo = header.AsEnumerable().First()["Modelo"].ToString();
+                factura.Total = (decimal)header.AsEnumerable().First()["Total"];
+                factura.Mecanica = header.AsEnumerable().First()["Mecanica"].ToString();
+                factura.Latoneria = header.AsEnumerable().First()["Latoneria"].ToString();
+                factura.Pintura = header.AsEnumerable().First()["Pintura"].ToString();
+                factura.FechaCreacion = (DateTime)header.AsEnumerable().First()["FechaCreacion"];
                 factura.servicios = lstServicios;
             }
 
@@ -98,55 +98,6 @@ namespace Entity.Mappers
         }
 
 
-        // MAPEAR CAMPOS TABLA AERONAVES    
-        public static List<AeronavesDto> AsLstAeronaves(this DataTable table)
-        {
-            List<AeronavesDto> lst = new List<AeronavesDto>();
-
-            if (table != null)
-            {
-                foreach (DataRow row in table.Rows)
-                {
-                    lst.Add(new AeronavesDto()
-                    {
-                        id = Convert.ToInt32(row["id"].ToString()),
-                        nombre = row["nombre"].ToString(),
-                        idLinea = Convert.ToInt32(row["idLinea"].ToString()),
-                        linea = row["linea"].ToString(),
-                        capacidad = Convert.ToInt32(row["capacidad"].ToString()),
-                        descripcion = row["descripcion"].ToString(),
-                        estado = Convert.ToBoolean(row["estado"].ToString()),
-                        fechaCreacion = Convert.ToDateTime(row["fechaCreacion"].ToString())
-                    });
-                }
-            }
-
-            return lst;
-        }
-
-        // MAPEA LOS CAMPOS DE LA TABLA PILOTOS
-        public static List<PilotosDto> AsLstPilotos(this DataTable table)
-        {
-            List<PilotosDto> lst = new List<PilotosDto>();
-
-            if (table != null)
-            {
-                foreach (DataRow row in table.Rows)
-                {
-                    lst.Add(new PilotosDto()
-                    {
-                        id = Convert.ToInt32(row["id"].ToString()),
-                        nombres = row["nombres"].ToString(),
-                        apellidos = row["apellidos"].ToString(),
-                        idAeronave = Convert.ToInt32(row["idAeronave"].ToString()),
-                        aeronave = row["aeronave"].ToString(),
-                        estado = Convert.ToBoolean(row["estado"].ToString()),
-                        fechaCreacion = Convert.ToDateTime(row["fechaCreacion"].ToString())                        
-                    });
-                }
-            }
-
-            return lst;
-        }
+        
     }
 }

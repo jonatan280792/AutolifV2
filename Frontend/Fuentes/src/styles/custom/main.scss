@@ -1,3 +1,6 @@
+/* Theme */
+@import 'theme/theme';
+
 /* Fonts */
 @import 'fonts/fonts';
 
@@ -12,12 +15,8 @@
 @import 'general/material';
 @import 'general/modal';
 
-
 /* Modules */
 @import 'modules/login';
-
-/* Theme */
-@import 'theme/theme';
 
 /* Variables */
 @import 'variables/variables';

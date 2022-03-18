@@ -46,3 +46,20 @@ C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Business\ob
 C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Business\obj\Release\netcoreapp3.1\Business.csproj.CopyComplete
 C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Business\obj\Release\netcoreapp3.1\Business.dll
 C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Business\obj\Release\netcoreapp3.1\Business.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\bin\Release\netcoreapp3.1\Business.deps.json
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\bin\Release\netcoreapp3.1\Business.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\bin\Release\netcoreapp3.1\Business.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\bin\Release\netcoreapp3.1\Entity.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\bin\Release\netcoreapp3.1\Repository.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\bin\Release\netcoreapp3.1\Security.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\bin\Release\netcoreapp3.1\Entity.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\bin\Release\netcoreapp3.1\Repository.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\bin\Release\netcoreapp3.1\Security.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\obj\Release\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\obj\Release\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\obj\Release\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\obj\Release\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\obj\Release\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\obj\Release\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\obj\Release\netcoreapp3.1\Business.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Business\obj\Release\netcoreapp3.1\Business.pdb

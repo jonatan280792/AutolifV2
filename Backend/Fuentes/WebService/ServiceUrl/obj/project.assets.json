@@ -4108,11 +4108,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\ServiceUrl\\ServiceUrl.csproj",
+      "projectUniqueName": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\ServiceUrl\\ServiceUrl.csproj",
       "projectName": "ServiceUrl",
-      "projectPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\ServiceUrl\\ServiceUrl.csproj",
+      "projectPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\ServiceUrl\\ServiceUrl.csproj",
       "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\ServiceUrl\\obj\\",
+      "outputPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\ServiceUrl\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4129,8 +4129,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Business\\Business.csproj"
+            "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Business\\Business.csproj"
             }
           }
         }
@@ -4160,12 +4160,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.18, 3.1.18]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4174,7 +4168,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

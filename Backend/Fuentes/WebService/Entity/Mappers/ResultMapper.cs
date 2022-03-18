@@ -1,9 +1,6 @@
 ﻿using Entity.Dtos;
-using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using System.Text;
 
 namespace Entity.Mappers
 {
@@ -17,9 +14,9 @@ namespace Entity.Mappers
             {
                 result = new ResultDto()
                 {
-                    Transaction = Convert.ToInt32(table.AsEnumerable().First()["Transaccion"]),
-                    Message = table.AsEnumerable().First()["Mensaje"].ToString(),
-                    status = table.AsEnumerable().First()["Estado"].ToString()
+                    Transaccion = (int)table.AsEnumerable().First()["Transaccion"],
+                    Mensaje = table.AsEnumerable().First()["Mensaje"].ToString(),
+                    Estado = (int)table.AsEnumerable().First()["Estado"]
                 };
 
             }

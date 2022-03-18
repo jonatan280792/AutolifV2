@@ -11,7 +11,6 @@ namespace Entity.Mappers
     {
         static readonly IConfiguration _config;
         static TokenServices _tokenService = new TokenServices();
-        
 
         public static ResponseLoginDto AsUsuario(this DataTable table)
         {
@@ -19,25 +18,25 @@ namespace Entity.Mappers
 
             if (table != null)
             {
-                if (table.AsEnumerable().First()["codigo"].ToString() == "Ok")
+                if (table.AsEnumerable().First()["Codigo"].ToString() == "Ok")
                 {
-                    Usuario usuarioDto = new Usuario()
+                    UsuarioDto usuarioDto = new UsuarioDto()
                     {
-                        id = Convert.ToInt32(table.AsEnumerable().First()["id"]),
-                        usuario = table.AsEnumerable().First()["usuario"].ToString(),
-                        tipo = table.AsEnumerable().First()["tipo"].ToString(),
-                        token = _tokenService.generateTokenJwt(_config, table.AsEnumerable().First()["usuario"].ToString())
+                        UsuarioID = (int)table.AsEnumerable().First()["UsuarioID"],
+                        Usuario = table.AsEnumerable().First()["Usuario"].ToString(),
+                        Tipo = table.AsEnumerable().First()["Tipo"].ToString(),
+                        Token = _tokenService.generateTokenJwt(_config, table.AsEnumerable().First()["Usuario"].ToString())
                     };
 
                     result = new ResponseLoginDto()
                     {
 
-                        codigo = table.AsEnumerable().First()["codigo"].ToString(),
-                        usuario = usuarioDto
+                        Codigo = table.AsEnumerable().First()["Codigo"].ToString(),
+                        Usuario = usuarioDto
                     };
                 } else
                 {
-                    result.codigo = "Error";
+                    result.Codigo = "Error";
                 }
             }
             return result;

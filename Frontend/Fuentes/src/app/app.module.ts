@@ -21,6 +21,8 @@ import { registerLocaleData } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ThemeService } from '@services/theme-service';
 import { MainHttpInterceptor } from '@interceptors/main-http-interceptor';
+import { ModalService } from '@common/modal/modal.service';
+// import { NgxSpinnerModule } from 'ngx-spinner';
 
 const imports = [
   CommonModule,
@@ -28,6 +30,7 @@ const imports = [
   BrowserAnimationsModule,
   HttpClientModule,
   // ChartsModule,
+  // NgxSpinnerModule,
   RouterModule.forRoot(
     AppRoutes,
     {
@@ -53,6 +56,7 @@ const providers = [
   { 
     provide: MatDialogRef, useValue: {} 
   },
+
 ];
 
 registerLocaleData(es);

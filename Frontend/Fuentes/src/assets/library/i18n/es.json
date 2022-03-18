@@ -9,6 +9,7 @@
   "homeToolbar": "Autolife, taller mecanico",
   "menu": {
     "home": "Registro",
+    "fac": "Facturas",
     "pilots": "Historial",
     "aircraft": "Servicios",
     "exit": "Salir"

@@ -39,3 +39,16 @@ C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Entity\obj\
 C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.CopyComplete
 C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Entity\obj\Debug\netcoreapp3.1\Entity.dll
 C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Entity\obj\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Entity\bin\Debug\netcoreapp3.1\Entity.deps.json
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Entity\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Entity\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Entity\bin\Debug\netcoreapp3.1\Security.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Entity\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.AssemblyReference.cache
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Entity\obj\Debug\netcoreapp3.1\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfo.cs
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.CopyComplete
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Entity\obj\Debug\netcoreapp3.1\Entity.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Entity\obj\Debug\netcoreapp3.1\Entity.pdb

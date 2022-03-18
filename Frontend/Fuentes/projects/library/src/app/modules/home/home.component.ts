@@ -18,18 +18,16 @@ import { ModalService } from '@common/modal/modal.service';
   encapsulation: ViewEncapsulation.None,
 })
 export class PageHomeComponent implements OnInit {  
-  options: string[] = ['Bogota D.C.', 'Calí', 'Medellin'];
   filteredOptions: Observable<string[]>;
-  columnsToDisplay = ['id', 'nombre', 'valor', 'actions'];
+  columnsToDisplay = ['ordenServicio', 'servicio', 'valor', 'actions'];
   public dataSource: MatTableDataSource<any>;
   showEdit: boolean;
   dataElement: any;
-  indexTable = 0;
   dataTable: any = [];
   table: MatTableDataSource<any>;
   header: any;
   lastId: number;
-  dataFactura: any;
+  dataFactura: any = {};
   verPDF: boolean;
   dateNow = new Date();
 
@@ -44,15 +42,29 @@ export class PageHomeComponent implements OnInit {
   }
 
   ngOnInit() {
+    
     this.initValues();
   }
 
   initValues() {
-    // this.libraryService.getFactura(7).subscribe(response => {
-    //   this.dataFactura = response;
-    //   this.verPDF = true;
-    // });
-    // this.print();
+    this.libraryService.getFactura(4).subscribe(response => {
+      this.dataFactura = response;
+      // this.print();
+      this.refreshPrint();
+      setTimeout(() => {
+        // this.print();
+      });
+      
+    });
+    
+  }
+
+  refreshPrint() {
+    this.verPDF = false;
+
+    setTimeout(() => {
+      this.verPDF = true;
+    });
   }
 
   processAction(id, data?) {
@@ -67,16 +79,24 @@ export class PageHomeComponent implements OnInit {
 
   processTable(event) {
     this.verPDF = false;
-    const addProductTable = {
-      id: event.id,
-      nombre: event.nombre,
-      valor: event.valor
+    if (this.checkExists(event)) {
+      this.dataTable.forEach(element => {
+        if (element.servicioID === event.servicioID) {
+          element.valor = event.valor
+        }
+      });
+    } else {
+      event['ordenServicio'] = this.dataTable.length + 1;
+      this.dataTable.push(event);
     }
 
-    this.dataTable.push(addProductTable);
     this.refreshTable(this.dataTable);
+  }
 
-    console.log(event);
+  checkExists(event) {
+    const exists = this.dataTable.find(x=> x.servicioID === event.servicioID);
+
+    return exists ? true : false;
   }
 
   processHeader(event) {
@@ -84,7 +104,7 @@ export class PageHomeComponent implements OnInit {
     this.header['servicios'] = this.dataTable;
 
     this.libraryService.setFactura(this.header).subscribe(response => {
-      this.snackBarService.showSnackBar(response.message, 'Cerrar', response.status === 'Ok' ? 3000 : 5000);
+      this.snackBarService.showSnackBar(response.mensaje);
 
       this.modalService.close('idModalFinish');
       this.lastId = parseInt(response.status);
@@ -117,7 +137,7 @@ export class PageHomeComponent implements OnInit {
     let printContents, popupWin;
     printContents = document.getElementById("print").innerHTML.toString();
     printContents = (<string>printContents + "").replace("col-sm", "col-xs");
-    // console.log(printContents);
+    console.log(printContents);
     popupWin = window.open("", "_blank", "top=0,left=0,height=100%,width=auto");
     popupWin.document.open();
     popupWin.document.write(`

@@ -21,30 +21,34 @@
         </div>
         <div class="body-table">
           <table mat-table [dataSource]="dataSource" class="table">
-            <!-- Enumeracion Column -->
-            <ng-container matColumnDef="id">
+            <!-- servicioID Column -->
+            <ng-container matColumnDef="ordenServicio">
               <th mat-header-cell *matHeaderCellDef> {{ 'pages.aircraft.headTableId' | translate }} </th>
-              <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+              <td mat-cell *matCellDef="let element"> {{element.ordenServicio}} </td>
             </ng-container>
 
-            <!-- nombre Column -->
-            <ng-container matColumnDef="nombre">
-              <th mat-header-cell *matHeaderCellDef> {{ 'pages.aircraft.headTableName' | translate }} </th>
-              <td mat-cell *matCellDef="let element"> {{element.nombre}} </td>
+            <!-- servicio Column -->
+            <ng-container matColumnDef="servicio">
+              <th mat-header-cell *matHeaderCellDef> Servicio </th>
+              <td mat-cell *matCellDef="let element"> {{element.servicio}} </td>
             </ng-container>
 
             <!-- valor Column -->
             <ng-container matColumnDef="valor">
-              <th mat-header-cell *matHeaderCellDef> {{ 'pages.aircraft.headTableIdLinea' | translate }} </th>
-              <td mat-cell *matCellDef="let element"> {{element.valor}} </td>
+              <th mat-header-cell *matHeaderCellDef> Precio </th>
+              <td mat-cell *matCellDef="let element"> {{element.valor | currency}} </td>
             </ng-container>
 
             <!-- Icons -->
             <ng-container matColumnDef="actions">
               <th mat-header-cell *matHeaderCellDef>Acciones</th>
               <td mat-cell *matCellDef="let element" class="element-actions">
-                <a (click)="processAction('idModalAircraft', element)">
+                <a (click)="processAction('idModalProducts', element)">
                   <mat-icon class="icons-table" title="Editar" svgIcon="edit">
+                  </mat-icon> 
+                </a>
+                <a (click)="processAction('idModalProducts', element)">
+                  <mat-icon class="icons-table" title="Eliminar" svgIcon="delete">
                   </mat-icon> 
                 </a> 
               </td>
@@ -81,112 +85,7 @@
   ></app-control-finish>
 </app-modal>
 
-
-<div id="print" style="display:none; font-size: 1.3rem;">
-  <div class="container" *ngIf="verPDF">
-    <div class="salto_pagina_anterior content">
-      <div class="row" style="text-align: center; padding-top: 20px;">
-        <div class="col-md-12">
-          <p style="font-weight: 700;">TALLER AUTOLIFE</p>
-          <div>MECANICA GENERAL - LATONERIA - PINTURA - FRENOS - SUSPENSIÓN</div>
-          <div>ORLANDO ROJAS  *  NIT 93367391-9  *  REGIMEN SIMPLIFICADO</div>
-          <div style="font-weight: 700;">CALLE 102A # 70B-30 Barrio Santa Rosa</div>
-          <div>Tel: 271 27 29 Cel. 310 560 90 52 * 310 866 07 74</div>
-          <div>FACTURA DE VENTA No {{ dataFactura.facturaID }} </div>
-        </div>
-      </div>
-      <div class="row" style="padding-top: 18px;">
-        <div class="col-md-2">
-          <strong>Placa</strong>
-          <div>
-            <label>{{ dataFactura.placa }}</label>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <strong>Propietario</strong>
-          <div>
-            <label>{{ dataFactura.propietario }}</label>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <strong>{{ dataFactura.tipoIdentificacion }}</strong>
-          <div>
-            <label>{{ dataFactura.identificacion }}</label>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <strong>Marca</strong>
-          <div>
-            <label>{{ dataFactura.marca }}</label>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <strong>Modelo</strong>
-          <div>
-            <label>{{ dataFactura.modelo }}</label>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3">
-          <strong>Fecha</strong>
-          <div>
-            <label>{{ dateNow | date }}</label>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <table class="table-pdf" style="width: 100%;">
-          <tr>
-            <th>Servicio</th>
-            <th>Valor</th>
-          </tr>
-          <tr *ngFor="let item of dataFactura.servicios">
-            <td>{{ item.nombre }}</td>
-            <td style="text-align: right; padding-right: 16px;">{{ item.valor | currency }}</td>
-          </tr>
-        </table>
-      </div>
-      <div class="row">
-        <div class="col-md-8">
-
-        </div>
-        <div class="col-md-4" style="text-align: right; padding-right: 16px;">
-          <strong>Total</strong>
-          <div>
-            <label>{{ dataFactura.total | currency }}</label>
-          </div>
-        </div>
-      </div>
-
-      <div class="observation" style="text-align: center; padding-top: 12px;">
-        <strong>GRACIAS POR SU VISITA</strong>
-        <div>
-          <label>Elaborado por JONATAN ROJAS</label>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<style>
-  .content {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .img-content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .observation {
-    height: 150px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-</style>
+<app-print
+  *ngIf="verPDF"
+  [dataFactura]="dataFactura"
+></app-print>

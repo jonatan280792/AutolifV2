@@ -2,8 +2,8 @@
 {
     public class MarcasDto
     {
-        public int marcaID { get; set; }
-        public string marca { get; set; }
-        public bool estado { get; set; }
+        public int MarcaID { get; set; }
+        public string Marca { get; set; }
+        public bool Estado { get; set; }
     }
 }

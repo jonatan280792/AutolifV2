@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Security\\Security.csproj": {}
+    "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Security\\Security.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Security\\Security.csproj": {
+    "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Security\\Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Security\\Security.csproj",
+        "projectUniqueName": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Security\\Security.csproj",
         "projectName": "Security",
-        "projectPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Security\\Security.csproj",
+        "projectPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Security\\Security.csproj",
         "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Security\\obj\\",
+        "outputPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Security\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

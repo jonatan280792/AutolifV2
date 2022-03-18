@@ -1,0 +1,100 @@
+<div id="print" style="font-size: 1.4rem; display: none;">
+  <div class="container">
+    <div class="salto_pagina_anterior content">
+      <div>
+      <img style="width: 100%; height: 126px;" src="assets/img/header.png" alt="">
+    </div>
+      <div class="row" style="text-align: center; padding-top: 5px;">
+        <div class="col-md-12">
+          <p style="font-weight: 700;">TALLER AUTOLIFE</p>
+          <div>MECANICA GENERAL - LATONERIA - PINTURA - FRENOS - SUSPENSIÓN</div>
+          <div>ORLANDO ROJAS  *  NIT 93367391-9  *  REGIMEN SIMPLIFICADO</div>
+          <div style="font-weight: 700;">CALLE 102A # 70B-30 Barrio Santa Rosa</div>
+          <div>Tel: 271 27 29 Cel. 310 560 90 52 * 310 866 07 74</div>
+          <div>FACTURA DE VENTA No {{ dataFactura.facturaID }} </div>
+        </div>
+      </div>
+      <div class="row" style="padding-top: 4px;">
+        <div class="col-md-4">
+          <strong>{{ dataFactura.tipoIdentificacion }}</strong>
+          <div>
+            <label>{{ dataFactura.identificacion }}</label>
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+          <strong>Propietario</strong>
+          <div>
+            <label>{{ dataFactura.propietario }}</label>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <strong>Fecha</strong>
+          <div>
+            <label>{{ dateFactura }}</label>
+          </div>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <strong>Placa</strong>
+          <div>
+            <label>{{ dataFactura.placa }}</label>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <strong>Marca</strong>
+          <div>
+            <label>{{ dataFactura.marca }}</label>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <strong>Modelo</strong>
+          <div>
+            <label>{{ dataFactura.modelo }}</label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <table class="table-pdf" style="width: 100%;">
+          <tr style="background: #d5d5d5;">
+            <th>Servicio</th>
+            <th>Valor</th>
+          </tr>
+          <tr *ngFor="let item of dataFactura.servicios">
+            <td>{{ item.servicio }}</td>
+            <td style="text-align: right; padding-right: 16px;">{{ item.valor | currency }}</td>
+          </tr>
+        </table>
+      </div>
+      <div class="row">
+        <div class="col-md-8"></div>
+        <div class="col-md-4" style="text-align: right; padding-right: 16px;">
+          <strong>Total</strong>
+          <div>
+            <label>{{ dataFactura.total | currency }}</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" *ngIf="dataFactura.mecanica">
+        <div class="col-md-12 bordePrintText" style="border: 1px solid;
+        padding: 10px;">
+          <p style="margin-bottom: 0;">
+            {{ dataFactura.mecanica }}
+          </p>
+          
+        </div>
+      </div>
+
+      <div class="observation" style="text-align: center; padding-top: 12px;">
+        <strong>GRACIAS POR SU VISITA</strong>
+        <div>
+          <label>Elaborado por JONATAN ROJAS</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

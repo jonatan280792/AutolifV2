@@ -29,6 +29,7 @@ import { ControlProductsModule } from './control-products/control-products.modul
 import { ModalService } from '@common/modal/modal.service';
 import { ModalModule } from '@common/modal/modal.module';
 import { ControlFinishModule } from './control-finish/control-finish.module';
+import { PrintModule } from '@common/library/print/print.module';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new MultiTranslateHttpLoader(http, [
@@ -64,6 +65,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatNativeDateModule,
     MatTableModule,
     // ChartsModule,
+    PrintModule,
     RouterModule,
     TranslateModule.forRoot({ loader: {
       deps: [HttpClient],

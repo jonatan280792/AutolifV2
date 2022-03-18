@@ -16,13 +16,12 @@
                   placeholder="Buscar servicio"
                   class="custom-input"
                   maxlength="100"
-                  name="nombre"
-									(keyup.enter)="addOption()"
-                  formControlName="nombre"
+                  name="servicio"
+                  formControlName="servicio"
 									[matAutocomplete]="autoServicio"/>
 									<mat-autocomplete (optionSelected)="optionSelected($event.option)" #autoServicio="matAutocomplete">
-										<mat-option *ngFor="let service of filteredServicio | async" [value]="service.nombre">
-											{{service.nombre}}
+										<mat-option *ngFor="let service of filteredServicio | async" [value]="service.servicio">
+											{{service.servicio}}
 										</mat-option>
 									</mat-autocomplete>
                 <mat-error class="mat-error">Campo requerido</mat-error>
@@ -34,8 +33,8 @@
                 <input
                   currencyMask 
                   matInput
-                  required                  
-                  placeholder="Ingrese el Nombre"
+                  required
+                  placeholder="Ingrese el Precio"
                   class="custom-input"
                   maxlength="100"
                   name="valor"
@@ -49,7 +48,7 @@
 		</div>
 
 		<div class="button-actions">
-      <button mat-raised-button class="section-btns" type="button" [disabled]="!(formRegister.status === 'VALID' && formRegister.touched)" (click)="addProduct(formRegister.value)" color="primary">Guardar</button>
+      <button mat-raised-button class="section-btns" type="button" [disabled]="formRegister.status !== 'VALID'" (click)="addProduct(formRegister.value)" color="primary">Agregar</button>
       <button mat-raised-button class="section-btns" (click)="close()">Salir</button>
     </div>
 	</mat-card>

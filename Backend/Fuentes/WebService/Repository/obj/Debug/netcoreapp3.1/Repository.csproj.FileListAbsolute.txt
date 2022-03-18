@@ -54,3 +54,18 @@ C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\
 C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
 C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.dll
 C:\Users\jonat\Documents\git Hub\AutoLife\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Security.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\bin\Debug\netcoreapp3.1\Security.pdb
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.AssemblyReference.cache
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Users\jonat\Documents\gitHub\AutolifV2\Backend\Fuentes\WebService\Repository\obj\Debug\netcoreapp3.1\Repository.pdb

@@ -13,11 +13,6 @@ const AppRoutes: Routes = [
       },
       {
         canActivate: [SessionAuthGuard],
-        loadChildren: () => import('@modules/library/pilot/pilot.module').then(m => m.PilotModule),
-        path: 'pilot'
-      },
-      {
-        canActivate: [SessionAuthGuard],
         loadChildren: () => import('@modules/library/home/home.module').then(m => m.HomeModule),
         path: ''
       },

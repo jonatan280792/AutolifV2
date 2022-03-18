@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Business\\Business.csproj": {}
+    "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Business\\Business.csproj": {
+    "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Business\\obj\\",
+        "outputPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj"
+              "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj"
               },
-              "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Repository\\Repository.csproj"
+              "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Repository\\Repository.csproj"
               }
             }
           }
@@ -61,18 +61,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj": {
+    "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Security\\Security.csproj": {
-                "projectPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Security\\Security.csproj"
+              "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Security\\Security.csproj": {
+                "projectPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Security\\Security.csproj"
               }
             }
           }
@@ -125,18 +125,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Repository\\Repository.csproj": {
+    "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -153,11 +153,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj"
+              "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Entity\\Entity.csproj"
               },
-              "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Security\\Security.csproj": {
-                "projectPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Security\\Security.csproj"
+              "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Security\\Security.csproj": {
+                "projectPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Security\\Security.csproj"
               }
             }
           }
@@ -196,18 +196,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Security\\Security.csproj": {
+    "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Security\\Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Security\\Security.csproj",
+        "projectUniqueName": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Security\\Security.csproj",
         "projectName": "Security",
-        "projectPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Security\\Security.csproj",
+        "projectPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Security\\Security.csproj",
         "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\Security\\obj\\",
+        "outputPath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\Security\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -260,7 +260,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

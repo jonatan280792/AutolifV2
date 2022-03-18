@@ -1,4 +1,4 @@
-$font-nova: '$proxima-nova';
+$font-nova: "$proxima-nova";
 
 // Fonts
 $font-weight-7: 700;
@@ -16,3 +16,34 @@ $brd-radius-4: 4px;
 $padding-large: 26px;
 
 @import "styles/main";
+
+// .content {
+//   height: 100vh;
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .img-content {
+//   flex: 1;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .observation {
+//   height: 150px;
+//   overflow: hidden;
+//   overflow-y: auto;
+// }
+
+// .bordePrintText {
+//   border: 1px solid;
+//   padding: 10px;
+
+//   p {
+//     margin-bottom: 0;
+//   }
+// }
+
+

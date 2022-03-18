@@ -13,6 +13,7 @@ import { RouterModule } from '@angular/router';
 import { LoginService } from '@services/login-services';
 import { ServiceUtils } from '@services/services-utils';
 import { SessionService } from '@services/session-service';
+import { ModalService } from '@common/modal/modal.service';
 
 const components = [LoginComponent];
 
@@ -28,6 +29,7 @@ const imports = [
 
 const providers = [
   LoginService,
+  ModalService,
   ServiceUtils,
   SessionService
 ];

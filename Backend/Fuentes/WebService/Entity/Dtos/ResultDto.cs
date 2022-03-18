@@ -6,8 +6,8 @@ namespace Entity.Dtos
 {
     public class ResultDto
     {
-        public int Transaction { get; set; }
-        public string Message { get; set; }
-        public string status { get; set; }
+        public int Transaccion { get; set; }
+        public string Mensaje { get; set; }
+        public int Estado { get; set; }
     }
 }

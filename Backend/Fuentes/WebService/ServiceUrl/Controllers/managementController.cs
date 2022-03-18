@@ -10,6 +10,7 @@ namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class managementController : ControllerBase
     {
         IManagementServices _service;
@@ -21,7 +22,6 @@ namespace WebApi.Controllers
 
         // Metodo GET que obtiene todas las aeronaves
         [HttpGet]
-        [Authorize]
         [Route("getServicios")]
         public IEnumerable<ServiciosDto> getServicios()
         {
@@ -30,7 +30,6 @@ namespace WebApi.Controllers
 
         // Metodo GET que obtiene todas las aeronaves
         [HttpGet]
-        [Authorize]
         [Route("getMarcas")]
         public IEnumerable<MarcasDto> getMarcas()
         {
@@ -38,7 +37,6 @@ namespace WebApi.Controllers
         }
         // Metodo GET que obtiene todas las aeronaves
         [HttpPost]
-        [Authorize]
         [Route("setServicios")]
         public ResultDto setServicio(ServiciosDto dto)
         {
@@ -46,7 +44,6 @@ namespace WebApi.Controllers
         }
         // Metodo SET que graba una factura
         [HttpPost]
-        [Authorize]
         [Route("setFactura")]
         public ResultDto setFactura(FacturaDto dto)
         {
@@ -54,100 +51,11 @@ namespace WebApi.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         [Route("getFactura/{id}")]
         public FacturaDto getFactura(int id)
         {
             return _service.getFactura(id);
         }
 
-        // Metodo GET que obtiene todas las aeronaves
-        [HttpGet]
-        [Authorize]
-        [Route("getAeronaves")]
-        public IEnumerable<AeronavesDto> getAeronaves()
-        {
-            return _service.getAeronaves();
-        }
-
-        // Metodo SET que graba una aeronave
-        [HttpPost]
-        [Authorize]
-        [Route("setAeronaves")]
-        public ResultDto setAeronaves([FromBody] AeronavesDto dto)
-        {
-            return _service.setAeronaves(dto);
-        }
-
-        // Metodo PUT que actualiza una aeronave
-        [HttpPut]
-        [Authorize]
-        [Route("putAeronaves")]
-        public ResultDto putAeronaves([FromBody] AeronavesDto dto, int id)
-        {
-            return _service.putAeronaves(dto, id);
-        }
-
-        // Metodo DELETE que elimina una aeronave
-        [HttpDelete]
-        [Authorize]
-        [Route("deleteAeronaves")]
-        public ResultDto deleteAeronaves(int id)
-        {
-            return _service.deleteAeronaves(id);
-        }
-
-
-        // Metodo GET que obtiene todos los pilotos
-        [Authorize]
-        [HttpGet]
-        [Route("getPilotos")]
-        public IEnumerable<PilotosDto> getPilotos()
-        {
-            return _service.getPilotos();
-        }
-
-        // Metodo POST que se encarga de crear un nuevo piloto
-        [HttpPost]
-        [Authorize]
-        [Route("setPilotos")]
-        public ResultDto setPilotos([FromBody] PilotosDto dto)
-        {
-            return _service.setPilotos(dto);
-        }
-
-        // Metodo PUT que se encarga de Actualizar un piloto
-        [HttpPut]
-        [Authorize]
-        [Route("putPilotos")]
-        public ResultDto putPilotos([FromBody] PilotosDto dto, int id)
-        {
-            return _service.putPilotos(dto, id);
-        }
-
-        // Metodo DELETE que elimina un piloto
-        [HttpDelete]
-        [Authorize]
-        [Route("deletePilotos")]
-        public ResultDto deletePilotos(int id)
-        {
-            return _service.deletePilotos(id);
-        }
-
-        // Metodo POST que se encarga de crear una reserva
-        [HttpPost]
-        [Authorize]
-        [Route("setReservas")]
-        public ResultDto setReservas([FromBody] ReservasDto dto)
-        {
-            return _service.setReservas(dto);
-        }
-
-        // GET: api/<libraryController>
-        [HttpGet]
-        public string Get()
-        {
-            return "El controlador sirve";
-        }
     }
 }

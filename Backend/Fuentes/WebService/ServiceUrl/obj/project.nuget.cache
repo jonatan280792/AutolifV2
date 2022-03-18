@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ge+35BtAfXV1yHXErOQYHIkV1GD7c12Q/pN6vryl0KnyApGBX4aUN6+TimX/njCfZafn490gF47k9wfrJiJDJg==",
+  "dgSpecHash": "g3jI9h2TX06SNPrJtIa2LeJz3D571P7dJlzyN+3HzZJuGKiEOYF2VAF+gxFnt12W6aPt7ogs4dOd4S6MtVRLeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jonat\\Documents\\git Hub\\AutoLife\\Backend\\Fuentes\\WebService\\ServiceUrl\\ServiceUrl.csproj",
+  "projectFilePath": "C:\\Users\\jonat\\Documents\\gitHub\\AutolifV2\\Backend\\Fuentes\\WebService\\ServiceUrl\\ServiceUrl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jonat\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.9\\microsoft.aspnetcore.authentication.jwtbearer.3.1.9.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -66,8 +66,7 @@
     "C:\\Users\\jonat\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\jonat\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\jonat\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+    "C:\\Users\\jonat\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

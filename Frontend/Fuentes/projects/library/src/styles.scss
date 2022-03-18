@@ -1,25 +1,27 @@
-$font-nova: '$proxima-nova';
-
-// Fonts
-$font-weight-7: 700;
-$font-errors: 12px;
-
-// Colors
-$color-alert: red;
-
 @import "styles/main";
+
+// $font-nova: '$proxima-nova';
+
+// // Fonts
+// $font-weight-7: 700;
+// $font-errors: 12px;
+
+// // Colors
+// $color-alert: red;
+
+
 
 html, body {
   height: 100%;
   width: 100%;
 }
 
-.table-pdf th  {
-  border: 1px solid black;
-  padding-left: 16px;
-}
+// .table-pdf th  {
+//   border: 1px solid black;
+//   padding-left: 16px;
+// }
 
-.table-pdf td  {
-  padding-left: 16px;
-  border: 1px solid black;
-}
+// .table-pdf td  {
+//   padding-left: 16px;
+//   border: 1px solid black;
+// }

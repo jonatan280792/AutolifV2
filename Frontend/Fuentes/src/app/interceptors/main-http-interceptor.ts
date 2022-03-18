@@ -10,6 +10,7 @@ import { SessionService } from '@services/session-service';
 export class MainHttpInterceptor implements HttpInterceptor {
 
   constructor(
+    //private loginService: LoginService,
     private sessionService: SessionService,
     private router: Router,
   ) {
@@ -25,11 +26,12 @@ export class MainHttpInterceptor implements HttpInterceptor {
       }),
       catchError(err => {
         if (err.status === 403) {
+          // this.sessionService.removeSessionData();
           this.sessionService.removeSessionData();
           this.router.navigate(['/login']);
         } else if (err.status === 401) {
           this.sessionService.removeSessionData();
-          this.router.navigate(['/login']);
+          // this.loginService.logout();
         }
 
         const error = err.error.message || err.statusText;
