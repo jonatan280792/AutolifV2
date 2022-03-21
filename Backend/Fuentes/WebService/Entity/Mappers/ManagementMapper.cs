@@ -52,6 +52,36 @@ namespace Entity.Mappers
             return lst;
         }
 
+        public static List<FacturaDto> AsLsFactura(this DataTable table)
+        {
+            List<FacturaDto> lsFactura = new List<FacturaDto>();
+
+            if (table != null)
+            {
+                foreach (DataRow element in table.Rows)
+                {
+                    FacturaDto factura = new FacturaDto();
+                    lsFactura.Add(factura);
+
+                    factura.FacturaID = (int)element["FacturaID"];
+                    factura.Placa = element["Placa"].ToString();
+                    factura.Propietario = element["Propietario"].ToString();
+                    factura.TipoIdentificacion = element["TipoIdentificacion"].ToString();
+                    factura.Identificacion = element["Identificacion"].ToString();
+                    factura.MarcaID = (int)element["MarcaID"];
+                    factura.Marca = element["Marca"].ToString();
+                    factura.Modelo = element["Modelo"].ToString();
+                    factura.Total = (decimal)element["Total"];
+                    factura.Mecanica = element["Mecanica"].ToString();
+                    factura.Latoneria = element["Latoneria"].ToString();
+                    factura.Pintura = element["Pintura"].ToString();
+                    factura.FechaCreacion = (DateTime)element["FechaCreacion"];
+                }
+            }
+
+            return lsFactura;
+        }
+
         // MAPEAR FACTURA
         public static FacturaDto AsFactura(this DataSet data)
         {
@@ -61,7 +91,7 @@ namespace Entity.Mappers
             List<ServiciosDto> lstServicios = new List<ServiciosDto>();
 
             DataTable header = data.Tables[0];
-            DataTable servicios = data.Tables[1];
+            DataTable servicios = data.Tables.Count > 1 ? data?.Tables[1] : null;
 
             if (servicios != null)
             {

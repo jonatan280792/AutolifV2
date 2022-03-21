@@ -21,7 +21,7 @@ import { LibraryService } from '@app/library/services/library-services';
 import { ModalService } from '@common/modal/modal.service';
 import { Observable } from 'rxjs';
 import { SnackBarService } from '@common/snack-bar/snack-bar-service';
-// import { NgxSpinnerService } from 'ngx-spinner';
+import { NgxSpinnerService } from 'ngx-spinner';
 
 @Component({
   selector: 'app-control-products',
@@ -44,7 +44,7 @@ export class ControlProductsComponent implements OnInit {
     private fb: FormBuilder,
     private libraryService: LibraryService,
     private modalService: ModalService,
-    // private spinner: NgxSpinnerService,
+    private spinner: NgxSpinnerService,
     private snackBarService: SnackBarService
   ) { }
 
@@ -53,7 +53,7 @@ export class ControlProductsComponent implements OnInit {
   }
 
   initValues() {
-    // this.spinner.show();
+    this.spinner.show();
     this.formRegister = this.fb.group({
       servicioID: this.dataElement ? this.dataElement.servicioID : 0,
       servicio: [this.dataElement ? this.dataElement.servicio : null, Validators.required],
@@ -64,7 +64,7 @@ export class ControlProductsComponent implements OnInit {
 
     this.libraryService.getServicios().subscribe(response => {
       this.lstServicios = response;
-      // this.spinner.hide();
+      this.spinner.hide();
 
       this.filteredServicio = this.formRegister.controls['servicio'].valueChanges
       .pipe(

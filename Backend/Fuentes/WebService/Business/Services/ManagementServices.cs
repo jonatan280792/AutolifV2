@@ -21,7 +21,6 @@ namespace Business.Services
         public ResultDto setServicios(ServiciosDto dto) => _repository.setServicios(dto).AsResult();
         public ResultDto setFactura(FacturaDto dto) => _repository.setFactura(dto).AsResult();
         public FacturaDto getFactura(int facturaID) => _repository.getFactura(facturaID).AsFactura();
-
-        
+        public List<FacturaDto> get_Facturas_Detalle() => _repository.get_Facturas_Detalle().AsLsFactura();
     }
 }

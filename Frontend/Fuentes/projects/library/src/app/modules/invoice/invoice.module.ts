@@ -6,9 +6,9 @@ import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
-import { PageAircraftComponent } from './aircraft.component';
+import { PagInvoiceComponent } from './invoice.component';
 import { CommonModule } from '@angular/common';
-import { AircraftRouting } from './aircraft.routing';
+import { AircraftRouting } from './invoice.routes';
 import { RouterModule } from '@angular/router';
 import { ModalService } from '@common/modal/modal.service';
 import { ModalModule } from '@common/modal/modal.module';
@@ -24,6 +24,7 @@ import { ServiceUtils } from '@services/services-utils';
 import { SessionService } from '@services/session-service';
 import { SnackBarService } from '@common/snack-bar/snack-bar-service';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { PrintModule } from '@common/library/print/print.module';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new MultiTranslateHttpLoader(http, [
@@ -34,7 +35,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   ]);
 }
 
-const components = [PageAircraftComponent];
+const components = [PagInvoiceComponent];
 
 const imports = [
   CommonModule,
@@ -50,6 +51,7 @@ const imports = [
   ModalModule,
   AircraftRouting,
   RouterModule,
+  PrintModule,
   TranslateModule.forRoot({ loader: {
     deps: [HttpClient],
     provide: TranslateLoader,
@@ -72,4 +74,4 @@ const providers = [
   providers: providers,
   // schemas: [NO_ERRORS_SCHEMA]
 })
-export class AircraftModule { }
+export class InvoiceModule { }

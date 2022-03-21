@@ -14,6 +14,7 @@ import { OverlayContainer } from '@angular/cdk/overlay';
 import { sessionPersistence, localSessionPersistence } from '@utils/session-persistence.util';
 import { TranslateService } from '@ngx-translate/core';
 import { ViewEncapsulation } from '@angular/core';
+import { LoginService } from '@services/login-services';
 
 @Component({
   selector: 'app-navigator-header',
@@ -36,6 +37,7 @@ export class NavigatorHeaderComponent implements OnInit {
   ];
 
   constructor(
+    private loginService: LoginService,
     private themeService: ThemeService,
     private translate: TranslateService,
     private overlayContainer: OverlayContainer
@@ -91,6 +93,7 @@ export class NavigatorHeaderComponent implements OnInit {
   }
 
   logout(url) {
-    window.location.href = 'http://localhost:4200/#' + url;
+    this.loginService.logout();
+    // window.location.href = 'http://localhost:4200/#' + url;
   }
 }

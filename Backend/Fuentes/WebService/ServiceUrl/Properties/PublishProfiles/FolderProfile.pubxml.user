@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\jonat\Desktop\NETCORE</_PublishTargetUrl>
-    <History>True|2022-03-18T15:03:08.6344573Z;True|2022-02-19T18:48:18.1334204-05:00;True|2022-02-19T18:47:17.3448341-05:00;True|2022-02-19T18:46:33.0232435-05:00;True|2021-11-13T18:58:33.7499239-05:00;</History>
+    <History>True|2022-03-18T22:20:09.1590705Z;True|2022-03-18T10:03:08.6344573-05:00;True|2022-02-19T18:48:18.1334204-05:00;True|2022-02-19T18:47:17.3448341-05:00;True|2022-02-19T18:46:33.0232435-05:00;True|2021-11-13T18:58:33.7499239-05:00;</History>
   </PropertyGroup>
 </Project>

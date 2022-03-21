@@ -8,6 +8,7 @@
 
         public static string GET_MARCAS = "core.get_Marcas";
         public static string GET_FACTURA = "core.get_Factura";
+        public static string GET_FACTURA_DETALLE = "core.get_Facturas_Detalle";
         public static string SET_FACTURA = "core.set_Factura";
         public static string SET_FACTURA_SERVICIOS = "core.set_FacturaServicios";
 

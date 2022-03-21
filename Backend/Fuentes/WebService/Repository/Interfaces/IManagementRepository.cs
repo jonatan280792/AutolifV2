@@ -11,5 +11,6 @@ namespace Repository.Interfaces
         DataTable setServicios(ServiciosDto dto);
         DataTable setFactura(FacturaDto dto);
         DataSet getFactura(int facturaID);
+        DataTable get_Facturas_Detalle();
     }
 }

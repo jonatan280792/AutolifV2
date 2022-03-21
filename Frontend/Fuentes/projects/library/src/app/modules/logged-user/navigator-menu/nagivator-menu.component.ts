@@ -51,7 +51,7 @@ export class NavigatorMenuComponent implements OnInit {
       },
       {
         title: 'menu.fac',
-        url: 'aircraft',
+        url: 'invoice',
         icon: 'avion'
       }
     ];

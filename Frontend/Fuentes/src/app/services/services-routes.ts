@@ -15,6 +15,10 @@ const ServicesRoutes = {
     needsAuth: true,
     url: baseUrlMotor + '/api/management/getFactura/:id',
   },
+  getFacturas_Detalle: {
+    needsAuth: true,
+    url: baseUrlMotor + '/api/management/getFacturas_Detalle',
+  },
   setFactura: {
     needsAuth: true,
     url: baseUrlMotor + '/api/management/setFactura',

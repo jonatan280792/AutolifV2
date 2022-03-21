@@ -56,6 +56,11 @@ namespace WebApi.Controllers
         {
             return _service.getFactura(id);
         }
-
+        [HttpGet]
+        [Route("getFacturas_Detalle")]
+        public IEnumerable<FacturaDto> get_Facturas_Detalle()
+        {
+            return _service.get_Facturas_Detalle();
+        }
     }
 }

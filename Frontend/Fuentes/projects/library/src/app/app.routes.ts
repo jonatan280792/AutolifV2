@@ -8,8 +8,8 @@ const AppRoutes: Routes = [
     children: [
       {
         canActivate: [SessionAuthGuard],
-        loadChildren: () => import('@modules/library/aircraft/aircraft.module').then(m => m.AircraftModule),
-        path: 'aircraft'
+        loadChildren: () => import('@modules/library/invoice/invoice.module').then(m => m.InvoiceModule),
+        path: 'invoice'
       },
       {
         canActivate: [SessionAuthGuard],

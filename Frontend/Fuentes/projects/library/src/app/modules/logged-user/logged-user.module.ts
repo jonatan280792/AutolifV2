@@ -22,6 +22,9 @@ import {
 } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { SessionService } from '@services/session-service';
+import { LoginService } from '@services/login-services';
+import { ModalService } from '@common/modal/modal.service';
+import { ServiceUtils } from '@services/services-utils';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new MultiTranslateHttpLoader(http, [
@@ -62,6 +65,9 @@ export function HttpLoaderFactory(http: HttpClient) {
   providers: [
     // ThemeService,
     CustomIconService,
+    LoginService,
+    ModalService,
+    ServiceUtils,
     SessionService
   ]
 })

@@ -231,6 +231,35 @@ namespace Repository.Repositories
                 return dtResult;
             }
         }
+        public DataTable get_Facturas_Detalle()
+        {
+            using (con = new SqlConnection(dbContext.ObtenerCadenaDbConexSQL(_config["config:urlConex"])))
+            {
+                try
+                {
+                    tblResult = new DataTable();
+                    con.Open();
+                    if (con.State == ConnectionState.Open)
+                    {
+                        SqlDataAdapter cmd = new SqlDataAdapter(STORE_PROCEDURES.GET_FACTURA_DETALLE, con);
+                        cmd.SelectCommand.CommandType = CommandType.StoredProcedure;
+                        cmd.Fill(tblResult);
 
+                        cmd.Dispose();
+                    }
+                }
+                catch (SqlException ex)
+                {
+                    con.Close();
+                    throw new InvalidOperationException("TAG: " + ex.Message + ex.ErrorCode + ex.Data, ex.InnerException);
+                }
+                catch (Exception)
+                {
+                    throw new Exception();
+                }
+                con.Close();
+                return tblResult;
+            }
+        }
     }
 }

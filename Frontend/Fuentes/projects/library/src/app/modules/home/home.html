@@ -23,7 +23,7 @@
           <table mat-table [dataSource]="dataSource" class="table">
             <!-- servicioID Column -->
             <ng-container matColumnDef="ordenServicio">
-              <th mat-header-cell *matHeaderCellDef> {{ 'pages.aircraft.headTableId' | translate }} </th>
+              <th mat-header-cell *matHeaderCellDef> Orden </th>
               <td mat-cell *matCellDef="let element"> {{element.ordenServicio}} </td>
             </ng-container>
 
@@ -47,7 +47,7 @@
                   <mat-icon class="icons-table" title="Editar" svgIcon="edit">
                   </mat-icon> 
                 </a>
-                <a (click)="processAction('idModalProducts', element)">
+                <a (click)="deleteAction(element)">
                   <mat-icon class="icons-table" title="Eliminar" svgIcon="delete">
                   </mat-icon> 
                 </a> 

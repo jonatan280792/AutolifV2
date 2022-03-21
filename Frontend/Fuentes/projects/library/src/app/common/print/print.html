@@ -85,7 +85,24 @@
           <p style="margin-bottom: 0;">
             {{ dataFactura.mecanica }}
           </p>
-          
+        </div>
+      </div>
+
+      <div class="row" *ngIf="dataFactura.latoneria">
+        <div class="col-md-12 bordePrintText" style="border: 1px solid;
+        padding: 10px;">
+          <p style="margin-bottom: 0;">
+            {{ dataFactura.latoneria }}
+          </p>
+        </div>
+      </div>
+
+      <div class="row" *ngIf="dataFactura.pintura">
+        <div class="col-md-12 bordePrintText" style="border: 1px solid;
+        padding: 10px;">
+          <p style="margin-bottom: 0;">
+            {{ dataFactura.pintura }}
+          </p>
         </div>
       </div>
 

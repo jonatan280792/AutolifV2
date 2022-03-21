@@ -11,6 +11,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { Observable } from 'rxjs';
 import { setLanguage } from '@utils/index';
 import { ModalService } from '@common/modal/modal.service';
+import { NgxSpinnerService } from 'ngx-spinner';
 
 @Component({
   selector: 'app-home',
@@ -36,6 +37,7 @@ export class PageHomeComponent implements OnInit {
     private libraryService: LibraryService,
     private modalService: ModalService,
     private snackBarService: SnackBarService,
+    private spinner: NgxSpinnerService,
     private translate: TranslateService
   ) { 
     this.translate.setDefaultLang(setLanguage('language'));
@@ -47,16 +49,11 @@ export class PageHomeComponent implements OnInit {
   }
 
   initValues() {
-    this.libraryService.getFactura(4).subscribe(response => {
-      this.dataFactura = response;
-      // this.print();
-      this.refreshPrint();
-      setTimeout(() => {
-        // this.print();
-      });
-      
-    });
-    
+    // this.libraryService.getFactura(4).subscribe(response => {
+    //   this.dataFactura = response;
+    //   // this.print();
+    //   this.refreshPrint();
+    // });
   }
 
   refreshPrint() {
@@ -77,8 +74,19 @@ export class PageHomeComponent implements OnInit {
     });
   }
 
+  deleteAction(element) {
+    let count = 1;
+    this.dataTable = this.dataTable.filter(x=> x.servicioID !== element.servicioID);
+
+    this.dataTable.forEach(element => {
+      element.ordenServicio = count;
+      count++;
+    });
+
+    this.refreshTable(this.dataTable);
+  }
+
   processTable(event) {
-    this.verPDF = false;
     if (this.checkExists(event)) {
       this.dataTable.forEach(element => {
         if (element.servicioID === event.servicioID) {
@@ -100,14 +108,16 @@ export class PageHomeComponent implements OnInit {
   }
 
   processHeader(event) {
+    this.spinner.show();
     this.header = event;
     this.header['servicios'] = this.dataTable;
 
     this.libraryService.setFactura(this.header).subscribe(response => {
       this.snackBarService.showSnackBar(response.mensaje);
+      this.spinner.hide();
 
       this.modalService.close('idModalFinish');
-      this.lastId = parseInt(response.status);
+      this.lastId = parseInt(response.estado);
       this.initPrint();
       this.refreshTable([]);
       this.dataTable = [];
@@ -117,11 +127,7 @@ export class PageHomeComponent implements OnInit {
   initPrint() {
     this.libraryService.getFactura(this.lastId).subscribe(response => {
       this.dataFactura = response;
-      this.verPDF = true;
-      setTimeout(() => {
-        this.print();
-      });
-      
+      this.refreshPrint();
     });
   }
 
@@ -131,68 +137,5 @@ export class PageHomeComponent implements OnInit {
     this.dataSource.data = data;
     setTimeout(() => {
     });
-  }
-
-  print() {
-    let printContents, popupWin;
-    printContents = document.getElementById("print").innerHTML.toString();
-    printContents = (<string>printContents + "").replace("col-sm", "col-xs");
-    console.log(printContents);
-    popupWin = window.open("", "_blank", "top=0,left=0,height=100%,width=auto");
-    popupWin.document.open();
-    popupWin.document.write(`
-      <html>
-        <head>
-          <title>Reporte</title>
-          <meta name="viewport" content="width=10000, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-          <link rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-          <style>
-            .salto_pagina_despues{
-              page-break-after:always;
-            }
-            
-            .salto_pagina_anterior{
-              page-break-before:always;
-            }
-
-            th  {
-              border: 1px solid black;
-              padding-left: 16px;
-            }
-            
-            td  {
-              padding-left: 16px;
-              border: 1px solid black;
-            }
-
-            .content {
-              height: 100vh;
-              width: 100%;
-              display: flex;
-              flex-direction: column;
-            }
-
-            .img-content {
-              flex: 1;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            }
-
-            .observation {
-              height: 150px;
-              overflow: hidden;
-              overflow-y: auto;
-            }
-          </style>
-        </head>
-        <body onload="window.print();">
-          ${printContents}
-        </body>
-      </html>`);
-    /* window.close(); */
-    popupWin.document.close();
   }
 }

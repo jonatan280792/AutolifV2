@@ -10,5 +10,6 @@ namespace Business.Interfaces
         ResultDto setServicios(ServiciosDto dto);
         ResultDto setFactura(FacturaDto dto);
         FacturaDto getFactura(int facturaID);
+        List<FacturaDto> get_Facturas_Detalle();
     }
 }

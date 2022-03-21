@@ -1,5 +1,6 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import {
+  AfterViewInit,
   Component,
   OnInit,
   ViewChild
@@ -21,20 +22,20 @@ import { setLanguage } from '@utils/index';
       transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
     ]),
   ],
-  selector: 'app-aircraft',
-  templateUrl: './aircraft.html'
+  selector: 'app-invoice',
+  templateUrl: './invoice.html'
 })
-export class PageAircraftComponent implements OnInit {
-  @ViewChild(MatPaginator, { static: false }) paginator: MatPaginator;
-  @ViewChild(MatSort, { static: true }) sort: MatSort;
-  public dataSource: MatTableDataSource<any>;
-  public lstAircraft: any;
+export class PagInvoiceComponent implements OnInit, AfterViewInit {
+  @ViewChild('Paginator', { read: MatPaginator }) Paginator: MatPaginator;
+  dataSource = new MatTableDataSource();
+  public lstInvoices: any;
   public lstLines: any; 
   expandedElement: any | null;
-  columnsToDisplay = ['id', 'nombre', 'idLinea', 'linea', 'capacidad', 'actions'];  
+  columnsToDisplay = ['placa', 'marca', 'modelo', 'tipoIdentificacion', 'identificacion', 'valor', 'actions'];  
   showEdit: boolean;
   isEditRegister: boolean;
-  dataElement: any;
+  dataFactura: any;
+  verPDF: boolean;
   
   constructor(
     private libraryService: LibraryService,
@@ -50,24 +51,19 @@ export class PageAircraftComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
+    this.dataSource.paginator = this.Paginator;
   }
 
   initValues() {
-    this.libraryService.getAeronaves().subscribe(responseAircraft => {      
-      this.lstAircraft = responseAircraft;      
-      this.dataSource = new MatTableDataSource(this.lstAircraft);
-    });
+    this.libraryService.getFacturas_Detalle().subscribe(response => {
+      console.log(response);
+      this.lstInvoices = response;      
+      this.dataSource.data = this.lstInvoices;
 
-    this.lstLines = [
-      {
-        codigoNegogio: 1, descripcion: 'Comercial'
-      },
-      {
-        codigoNegogio: 2, descripcion: 'Personal'
-      }
-    ];
+      setTimeout(() => {
+        this.dataSource.paginator = this.Paginator;
+      });
+    });
   }
 
   applyFilter(event: Event) {
@@ -79,13 +75,18 @@ export class PageAircraftComponent implements OnInit {
     }
   }
 
-  processAction(id, data?) {
-    this.dataElement = data;
-    this.showEdit = false;
-    
+  initPrint(element) {
+    this.libraryService.getFactura(element.facturaID).subscribe(response => {
+      this.dataFactura = response;
+      this.refreshPrint();
+    });
+  }
+
+  refreshPrint() {
+    this.verPDF = false;
+
     setTimeout(() => {
-      this.showEdit = true;
-      this.modalService.open(id);
+      this.verPDF = true;
     });
   }
 

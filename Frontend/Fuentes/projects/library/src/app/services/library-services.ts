@@ -35,7 +35,10 @@ export class LibraryService {
 
   public getFactura(id: number): Observable<any> {
     return this.serviceUtils.buildRequest(buildRoute(ServicesRoutes.getFactura, {id: id}), 'get');
-    // return this.serviceUtils.buildRequest(ServicesRoutes.getFactura, 'get', data)
+  }
+
+  public getFacturas_Detalle(): Observable<any> {
+    return this.serviceUtils.buildRequest(ServicesRoutes.getFacturas_Detalle, 'get');
   }
 
   // CRUD aeronaves

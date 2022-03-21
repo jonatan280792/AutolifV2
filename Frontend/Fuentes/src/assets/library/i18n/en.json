@@ -10,21 +10,13 @@
   "menu": {
     "home": "Home",
     "fac": "Factures",
-    "aircraft": "Aircraft",
-    "pilots": "Pilots",
     "exit": "Exit"
   },
   "pages": {
-    "aircraft": {
-      "title": "Aircraft registration and control",
-      "filterInput": "Filter",
-      "placeFilter": "Enter a search criteria",
-      "headTableId": "No.",
-      "headTableName": "Name",
-      "headTableIdLinea": "Id Line",
-      "headTableLinea": "Line",
-      "headTableCapacidad": "Capaciti",
-      "headTableStatus": "Status"
+    "invoice": {
+      "title": "Historial de facturas",
+      "filterInput": "Filtrar",
+      "placeFilter": "Ingrese un criterio de búsqueda"
     },
     "pilot": {
       "title": "Pilot registration and control",
